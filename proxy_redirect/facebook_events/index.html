@@ -29,12 +29,14 @@
   var login = function() {
     FB.login(function(response) {
       if (response.status === 'connected' && response.authResponse) {
-        if (params.display) {
+        if (params.redirect === 'display') {
           document.getElementById('token').value = response.authResponse.accessToken;
-        } else if (params.redirect_uri) {
+        } else if (params.redirect === 'opener') {
+          window.opener.location.href += '?' + toQS(response.autReponse);
 
-          document.location.href = params.redirect_uri + '?' 
-          + toQS(response.authResponse); 
+        } else if (params.redirect === 'uri') {
+          document.location.href = params.redirect_uri + 
+            '?' + toQS(response.authResponse); 
         }
       } else {
         console.error(response);
