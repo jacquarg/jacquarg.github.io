@@ -2,7 +2,7 @@
 <head>
 </head>
 <body>
-<h1>Login to Google</h1>
+<h1>Code from OAuth</h1>
 <input id='token' type='text' />
 <script type="text/javascript">
   // Libs :
@@ -10,16 +10,33 @@
   var decodeQS = function(qs) {
     return qs.split('&').reduce(function(agg, kV) {
       var splitted = kV.split('=');
-      agg[splitted[0]] = splitted[1];
+      agg[splitted[0]] = decodeURIComponent(splitted[1]);
       return agg;
     }, {});
   };
 
-  // Redirect to google URL :
+  var encodeQS = function(props) {
+    var str = '';
+    for (var k in props) {
+      str += '&' + k + '=' + encodeURIComponent(props[k]);
+    }
+
+    str[0] = '?';
+    return str;
+  };
+
+  // Redirect to URL :
   console.log(document.location.href);
   var params = decodeQS(document.location.search.slice(1));
 
   document.getElementById('token').value = params.code;
+
+  console.log(sessionStorage.getItem(params.state));
+
+
+
+  //window.location.replace(sessionStorage.get(params.state) + document.locaiton.search);
+
 </script>
 </body>
 </html>

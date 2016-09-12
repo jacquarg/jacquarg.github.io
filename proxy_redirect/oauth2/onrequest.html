@@ -1,0 +1,52 @@
+<html>
+<head>
+</head>
+<body>
+<h1>Login to OAuth</h1>
+<script type="text/javascript">
+  // Libs :
+  // Decode QueryString
+  var decodeQS = function(qs) {
+    return qs.split('&').reduce(function(agg, kV) {
+      var splitted = kV.split('=');
+      agg[splitted[0]] = decodeURIComponent(splitted[1]);
+      return agg;
+    }, {});
+  };
+
+  var encodeQS = function(props) {
+    var str = '';
+    for (var k in props) {
+      str += '&' + k + '=' + encodeURIComponent(props[k]);
+    }
+
+    str = str.replace('&', '?');
+    return str;
+  };
+
+  // Redirect to URL :
+  console.log(document.location.href);
+  var params = decodeQS(document.location.search.slice(1));
+
+
+  window.sessionStorage.setItem(params.state, params.redirect_uri);
+
+
+  var redirectProxyPath = document.location.pathname.replace('onrequest.html', 'onredirect.html');
+  params.redirect_uri = document.location.protocol + '//' + document.location.host + redirectProxyPath;
+  
+  var server = params.server;
+  delete params.server;
+  console.log(server + encodeQS(params));
+  window.location = server + encodeQS(params);
+  // window.open(server + encodeQS(params));
+
+</script>
+
+<!-- 
+
+
+-->
+</body>
+
+</html>
