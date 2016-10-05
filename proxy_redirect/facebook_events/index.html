@@ -35,8 +35,8 @@
           window.opener.location.href += '?' + toQS(response.autReponse);
 
         } else if (params.redirect === 'url') {
-          document.location.href = params.redirect_url + 
-            '?' + toQS(response.authResponse); 
+          window.location.replace(decodeURIComponent(params.redirect_url) + 
+            '?' + toQS(response.authResponse)); 
         }
       } else {
         console.error(response);
