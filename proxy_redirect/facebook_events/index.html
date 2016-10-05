@@ -34,8 +34,8 @@
         } else if (params.redirect === 'opener') {
           window.opener.location.href += '?' + toQS(response.autReponse);
 
-        } else if (params.redirect === 'uri') {
-          document.location.href = params.redirect_uri + 
+        } else if (params.redirect === 'url') {
+          document.location.href = params.redirect_url + 
             '?' + toQS(response.authResponse); 
         }
       } else {
