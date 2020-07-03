@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+     <meta charset="utf-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+     <title>Empreinte CO2</title>
+
+
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Infant&family=Mukta&display=swap" rel="stylesheet"> 
+    <style>
+      html {
+        background-color: #f4f7f9;
+      }
+
+      /* SMS ***********************************************/
+      .smsList {
+        position: absolute;
+        width: 320px;
+        height: 99%;
+        left: 50%;
+        margin-left: -160px;
+        transform: scaleY(-1);
+
+      }
+
+      .mySmsLine, .itSmsLine {
+        transform: scaleY(-1);
+        width: 100%;
+      }
+      .mySmsLine {
+        text-align: right;
+      }
+      .itSmsLine {
+        text-align: left;
+      }
+
+
+      .mySms, .itSms {
+        min-width: 150px;
+        max-width: 220px;
+        font-family: 'Mukta', sans-serif;
+        font-size: 14pt;
+        padding: 7px 15px;
+        margin-bottom: 10px;
+        border-radius: 17px;
+        display: inline-block;
+      }
+
+
+      .mySms {
+        background-color: #6cd56e;
+        color: white;
+      }
+
+      .itSms {
+        background-color: #e9e9eb;
+        color: black;
+      }
+
+      /* Explanations ***********************************************/
+
+      .explanations-title {
+        font-family: 'Cormorant Infant', serif;
+        font-style: 'uppercase';
+
+      }
+
+      /* other ***********************************************/
+      .countDown {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        font-size: 30pt;
+      }
+
+      .copyright {
+        position: absolute;
+        bottom: 30px;
+        right: 30px;
+        /* TODO font */
+      }
+
+    </style>
+  </head>
+  <body>
+    <div class="smsList" id="smsList">
+      <div class="mySmsLine"><div class="mySms">Tati tata bonjour</div></div>
+      <div class="itSmsLine"><div class="itSms">Tati tata bonjour it</div></div>
+      <div class="mySmsLine"><div class="mySms">Tati</div></div>
+      <div class="itSmsLine"><div class="itSms">Tati</div></div>
+      <div class="mySmsLine"><div class="mySms">Tati tata bonjour blabla blabal blabal balbal blabla blaabl blabla blabla blabla albalb albalb</div></div>
+      <div class="itSmsLine"><div class="itSms">Tati tata bonjour it blabla blabal blabal balbal blabla blaabl blabla blabla blabla albalb albalb</div></div>
+
+<div class="mySmsLine"><div class="mySms">Tati tata bonjour</div></div>
+      <div class="itSmsLine"><div class="itSms">Tati tata bonjour it</div></div>
+      <div class="mySmsLine"><div class="mySms">Tati</div></div>
+      <div class="itSmsLine"><div class="itSms">Tati</div></div>
+      <div class="mySmsLine"><div class="mySms">Tati tata bonjour blabla blabal blabal balbal blabla blaabl blabla blabla blabla albalb albalb</div></div>
+      <div class="itSmsLine"><div class="itSms">Tati tata bonjour it blabla blabal blabal balbal blabla blaabl blabla blabla blabla albalb albalb</div></div>
+
+
+
+    </div>
+    <div class="countDown" id="countDown"></div>
+    <div class="copyright">Titre - 2020 - V</div>
+<!-- CDC 
+  TODO: 
+  V UI
+  V append on click
+  V auto append
+  V stop on click and restart
+  V sms blocks aleatoir
+  V recycle views / clear views
+  * animations + sound
+  * popup text explicatif
+  * test multi devices
+
+-->
+    <script>
+      // UI fonctions
+
+      var displayedElements = []
+      function appendSms(message) {
+        var rand = getRandomInt(10)
+        
+        var prefix = (message.me) ? 'my' : 'it'
+
+        // var html = '<div class="' + prefix + 'SmsLine"><div class="' + prefix + 'Sms">' + message.text + '</div></div>'
+        // document.getElementById('smsList').insertAdjacentHTML('afterbegin', html)
+        
+        var html = '<div class="' + prefix + 'Sms">' + message.text + '</div>'
+
+        var element = document.createElement('div')
+        element.className = prefix + 'SmsLine'
+        element.innerHTML = html
+        var smsList = document.getElementById('smsList')
+        smsList.insertBefore(element, smsList.firstChild)
+
+        displayedElements.push(element)
+        for (var elem of displayedElements) {
+          var bottom = elem.getBoundingClientRect().bottom
+
+          if (bottom < 0) {
+            elem.remove()
+            displayedElements.shift()
+          }
+
+        }
+      }
+
+      function displayCountDown(count) {
+        var countStr = (count > 0) ? "" + count : "" 
+        
+        document.getElementById('countDown').innerHTML = countStr
+      }
+
+      // Command
+
+      var remainingBlocks = []
+      var currentBlock = null
+      var currentMessageIndex = -1
+      function getNextSMS() {
+        if (currentBlock == null || currentMessageIndex >= currentBlock.length - 1) {
+          if (remainingBlocks.length == 0) {
+            remainingBlocks = blocks.slice()
+          }
+          var blockIndex = getRandomInt(remainingBlocks.length - 1)
+          currentBlock = remainingBlocks.splice(blockIndex, 1)[0]
+          currentMessageIndex = -1
+        }
+
+        currentMessageIndex++
+        return currentBlock[currentMessageIndex]
+      }
+
+      
+      var floodId = null
+      var fixedDelay = 200
+      var variableDelay = 1000
+      function startFlood() {
+        appendSms(getNextSMS())
+        floodId = setTimeout(startFlood, fixedDelay + getRandomInt(variableDelay))
+      }
+
+      function stopFlood() {
+        console.log("toto")
+        if (countDownId == null) {
+          console.log("toto2")
+          clearTimeout(floodId)
+          count = 5
+
+          doCountDown()
+        }
+      }
+
+      var count = 0
+      var countDownId = null
+      var countDownPeriod = 1000
+      function doCountDown() {
+        console.log("toto3")
+
+        displayCountDown(count)
+                  console.log("toto4")
+
+        count--
+        if (count < 0) {
+                    console.log("toto5")
+
+          startFlood()
+          countDownId = null
+        } else {
+                    console.log("toto6")
+
+          countDownId = setTimeout(doCountDown, countDownPeriod)
+        }
+      }
+
+
+      // init
+      function initialize() {
+        document.addEventListener("click",stopFlood)
+      
+        startFlood()  
+      }
+
+
+      // Tools
+      function getRandomInt(max) {
+        return Math.floor(Math.random() * Math.floor(max))
+      }
+
+      // Data
+      var blocks = [
+        [
+        {
+          me: true,
+          text: "blabla1"
+        },
+        {
+          me: false,
+          text: "blabla1"
+        },
+        {
+          me: true,
+          text: "blabla2"
+        },
+        {
+          me: false,
+          text: "blabla2"
+        },
+        {
+          me: true,
+          text: "blabla3"
+        },
+        {
+          me: false,
+          text: "blabla3"
+        },
+        ],
+        [
+        {
+          me: true,
+          text: "bleble1"
+        },
+        {
+          me: false,
+          text: "bleble1"
+        },
+        ],
+        [
+        {
+          me: false,
+          text: "blibli1"
+        },
+        {
+          me: true,
+          text: "blibli1"
+        },
+        ],
+        [
+        {
+          me: true,
+          text: "bloblo1"
+        },
+        {
+          me: false,
+          text: "bloblo1"
+        },
+        ],
+        [
+        {
+          me: true,
+          text: "blublu1"
+        },
+        ],
+      ]
+
+      initialize()
+    </script>
+  </body>
+  </html>
