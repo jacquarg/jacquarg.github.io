@@ -7,9 +7,38 @@
 
 
     <link href="https://fonts.googleapis.com/css2?family=Cormorant+Infant&family=Mukta&display=swap" rel="stylesheet"> 
+    <!--link href="https://fonts.googleapis.com/css2?family=Cormorant+Infant&family=Mukta&display=swap" rel="stylesheet"--> 
+
+
     <style>
       html {
         background-color: #f4f7f9;
+        cursor: url(./res/img/SMS-STOP-01.svg), url(./res/img/SMS-STOP-01.png), pointer;
+        font-family: 'Cormorant Infant', serif;
+        font-size: 14pt;
+        box-sizing: border-box;
+        overflow: hidden;
+      }
+
+      ::-webkit-scrollbar {
+          width: 20px;
+      }
+
+      ::-webkit-scrollbar-track {
+        background: url(./res/img/scroll_bar_track.png);
+        background-repeat: repeat-y;
+
+      }
+ 
+      ::-webkit-scrollbar-thumb {
+        background: white;
+        border: 1px solid black;
+      }
+
+      .smsContainer {
+        position: absolute;
+        width: 99%;
+        height: 99%;
       }
 
       /* SMS ***********************************************/
@@ -20,7 +49,6 @@
         left: 50%;
         margin-left: -160px;
         transform: scaleY(-1);
-
       }
 
       .mySmsLine, .itSmsLine {
@@ -36,9 +64,9 @@
 
 
       .mySms, .itSms {
-        min-width: 150px;
+        /*min-width: 150px;*/
         max-width: 220px;
-        font-family: 'Mukta', sans-serif;
+        font-family: helvetica; /*'Mukta', sans-serif;*/
         font-size: 14pt;
         padding: 7px 15px;
         margin-bottom: 10px;
@@ -46,9 +74,15 @@
         display: inline-block;
       }
 
+      .emoji {
+        font-size: 36pt;
+        background: rgba(0, 0, 0, 0) !important;
+        padding: 0 15px; !important;
+      }
+
 
       .mySms {
-        background-color: #6cd56e;
+        background-color: rgb(24, 137, 254);
         color: white;
       }
 
@@ -57,13 +91,77 @@
         color: black;
       }
 
-      /* Explanations ***********************************************/
+      /* Explanations **********************************************/
 
-      .explanations-title {
-        font-family: 'Cormorant Infant', serif;
-        font-style: 'uppercase';
-
+      .explanationsContainer {
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 99%;
+        height: 99%;
+        
+        background: rgba(255, 255, 255, 0.9);
+        cursor: auto;
       }
+
+      .explanations {
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 99%;
+        height: 99%;
+        
+        background: white;
+      }
+
+      .explanations > .content {
+        height: calc(100% - 80px);
+        margin-left: 0;
+        margin-right: 0;
+        margin-top: 70px;
+        margin-bottom: 10px;
+
+        overflow-y: auto;
+
+        padding: 0 40px;
+
+        font-family: 'Cormorant Infant', serif;
+        font-size: 14pt;
+
+
+        scrollbar-width: thin;
+      }
+
+      @media (min-width: 576px) {
+        .explanations {
+          position: absolute;
+          width: 540px;
+          height: 405px;
+          left: 50%;
+          top: 50%;
+          margin-left: -270px;
+          margin-top: -202px;
+        }
+
+        .explanations > .content {
+          height: 325px;
+          margin-left: 30px;
+          margin-right: 30px;
+        }
+      }
+
+      .explanations > .close {
+        position: absolute;
+        right: 0px;
+        top: 10px;
+        width: 70px;
+        cursor: pointer;
+      }
+      .explanations > .close > img {
+        width: 100%;
+      }
+
+
 
       /* other ***********************************************/
       .countDown {
@@ -73,6 +171,35 @@
         font-size: 30pt;
       }
 
+      .sendSmsContainer {
+        position: absolute;
+        bottom: 0px;
+        left: 0px;
+        right: 0px;
+        width: auto;
+        height: 62px;
+        background-color: #e9e9eb;
+      }
+
+      .sendSmsTextField {
+        position: absolute;
+        font-family: helvetica; /*'Mukta', sans-serif;*/
+        font-size: 14pt;
+        padding: 7px 15px;
+       
+        border-radius: 17px;
+        display: inline-block;
+        background-color: white;
+        color: black;
+
+        width: 320px;
+        height: 28px;
+        left: 50%;
+        margin-left: -160px;
+        bottom: 10px;
+      }
+
+
       .copyright {
         position: absolute;
         bottom: 30px;
@@ -80,61 +207,121 @@
         /* TODO font */
       }
 
+      #copyright {
+        display: none;
+      }
+
+      #sendSms {
+        display: block;
+      } 
+
+      /*.smsList {
+          padding-bottom: 62px
+      }*/
+
+      @media (min-width: 576px) {
+
+        /*.smsList {
+          padding-bottom: 0px
+        }*/
+        #copyright {
+          display: block;
+        }
+
+
+        #sendSms {
+          display: none;
+        }
+
+
+
     </style>
   </head>
-  <body>
-    <div class="smsList" id="smsList">
-      <div class="mySmsLine"><div class="mySms">Tati tata bonjour</div></div>
-      <div class="itSmsLine"><div class="itSms">Tati tata bonjour it</div></div>
-      <div class="mySmsLine"><div class="mySms">Tati</div></div>
-      <div class="itSmsLine"><div class="itSms">Tati</div></div>
-      <div class="mySmsLine"><div class="mySms">Tati tata bonjour blabla blabal blabal balbal blabla blaabl blabla blabla blabla albalb albalb</div></div>
-      <div class="itSmsLine"><div class="itSms">Tati tata bonjour it blabla blabal blabal balbal blabla blaabl blabla blabla blabla albalb albalb</div></div>
-
-<div class="mySmsLine"><div class="mySms">Tati tata bonjour</div></div>
-      <div class="itSmsLine"><div class="itSms">Tati tata bonjour it</div></div>
-      <div class="mySmsLine"><div class="mySms">Tati</div></div>
-      <div class="itSmsLine"><div class="itSms">Tati</div></div>
-      <div class="mySmsLine"><div class="mySms">Tati tata bonjour blabla blabal blabal balbal blabla blaabl blabla blabla blabla albalb albalb</div></div>
-      <div class="itSmsLine"><div class="itSms">Tati tata bonjour it blabla blabal blabal balbal blabla blaabl blabla blabla blabla albalb albalb</div></div>
-
-
-
+  <body id="body">
+    <div class="smsContainer" id="smsContainer"> 
+      <div class="smsList" id="smsList"></div>
+      <div class="sendSmsContainer" id="sendSms">
+        <div class="sendSmsTextField">Je suis glas, glace de toi - 2020 - V</div>
+      </div>
     </div>
     <div class="countDown" id="countDown"></div>
-    <div class="copyright">Titre - 2020 - V</div>
+    <div class="copyright" id="copyright">Je suis glas, glace de toi - 2020 - V</div>
+  
+
+    <div class="explanationsContainer" id="explanations">
+      <div class="explanations" >
+        <div class="close" id="closeExplanations"><img src='./res/img/SMS-CROSS-02.png' /></div>
+        <div class="content">
+          <H2 class="explanations-title">Je suis glas, glace de toi</H2>
+          <p>Il faut faire la distinction entre l’art qui utilise le numérique comme simple outil pour créer des objets – photographie, impression, sculpture ou musique – et l’art qui l’utilise comme médium à part entière. Dans ce second cas, l’œuvre est produite, stockée et présentée uniquement sous format numérique et en exploite le potentiel interactif ou participatif.</p>
+          <p>Un premier facteur caractérise les arts numériques : l’interactivité. Alors que les œuvres d’art « classiques » (peinture, sculpture...) restaient statiques, soumises au seul regard contemplatif du spectateur, les œuvres d’art « technologiques » privilégient d’autres sens : en particulier le toucher, ainsi que la gestuelle. L’artiste n’est plus l’unique « créateur » de l’œuvre mais souvent le médiateur ou l’animateur des interactions entre le public et celle-ci.</p>
+          <p>« Une fenêtre ouverte par laquelle on puisse regarder l’histoire.</p>
+        </div>
+      </div>
+    </div>
 <!-- CDC 
   TODO: 
-  V UI
-  V append on click
-  V auto append
-  V stop on click and restart
-  V sms blocks aleatoir
-  V recycle views / clear views
-  * animations + sound
-  * popup text explicatif
+    V emoji : si emojy seul, pas de bulle colorée taille custo tripple ... (double /  ?)
+    V bulle : pas de taille min, adapte au text.
+    N taille max : ~ 36 charactères
+    V bleu : rgb(24, 137, 254)
+
+    * en mode xs : en bas, pseudo interface de creation de message pour porter le titre 
+    *  
+    
+
+
   * test multi devices
+  
+  * fix linebrake regex : (text: "[^"]*)\n
 
 -->
+    <!--<audio preload="true" controls="none" src="./res/audio/1111.ogg" style="display: none;" > -->
+
+    <script src="./sms-text.js"></script>
     <script>
+      var countDownPeriod = 1000
+      var fixedDelay = 50
+      var variableDelay = 200
+
+      var sounds = Array(50).fill(1).map(() => new Audio("./res/audio/1111.ogg"))
+      var soundIdx = 0
+    
+      
+      
+
+      function playSound() {
+        soundIdx = (soundIdx + 1) % sounds.length
+        //sounds[soundIdx].play()
+      }
+
       // UI fonctions
 
       var displayedElements = []
       function appendSms(message) {
         var rand = getRandomInt(10)
-        
+      
+        var isJustEmoji = message.text.match(/\s/g) == null && isEmoji(message.text)
+
         var prefix = (message.me) ? 'my' : 'it'
 
         // var html = '<div class="' + prefix + 'SmsLine"><div class="' + prefix + 'Sms">' + message.text + '</div></div>'
         // document.getElementById('smsList').insertAdjacentHTML('afterbegin', html)
         
-        var html = '<div class="' + prefix + 'Sms">' + message.text + '</div>'
+        var html = '<div class="' + prefix + 'Sms'
+        if (isJustEmoji) {
+          html += ' emoji '
+        }
+
+        html += '">' + message.text + '</div>'
 
         var element = document.createElement('div')
         element.className = prefix + 'SmsLine'
         element.innerHTML = html
         var smsList = document.getElementById('smsList')
         smsList.insertBefore(element, smsList.firstChild)
+
+        playSound()
 
         displayedElements.push(element)
         for (var elem of displayedElements) {
@@ -175,17 +362,14 @@
 
       
       var floodId = null
-      var fixedDelay = 200
-      var variableDelay = 1000
+      
       function startFlood() {
         appendSms(getNextSMS())
         floodId = setTimeout(startFlood, fixedDelay + getRandomInt(variableDelay))
       }
 
       function stopFlood() {
-        console.log("toto")
         if (countDownId == null) {
-          console.log("toto2")
           clearTimeout(floodId)
           count = 5
 
@@ -195,31 +379,29 @@
 
       var count = 0
       var countDownId = null
-      var countDownPeriod = 1000
+      
       function doCountDown() {
-        console.log("toto3")
-
         displayCountDown(count)
-                  console.log("toto4")
 
         count--
         if (count < 0) {
-                    console.log("toto5")
-
           startFlood()
           countDownId = null
         } else {
-                    console.log("toto6")
-
           countDownId = setTimeout(doCountDown, countDownPeriod)
         }
       }
 
-
+      
       // init
       function initialize() {
-        document.addEventListener("click",stopFlood)
+        document.getElementById('smsContainer').addEventListener("click", stopFlood)
+        
       
+        document.getElementById("explanations").addEventListener("click",
+          ev => {
+            document.getElementById("explanations").style.display = "none"
+          })
         startFlood()  
       }
 
@@ -229,8 +411,19 @@
         return Math.floor(Math.random() * Math.floor(max))
       }
 
+      function isEmoji(str) {
+          var ranges = [
+              '(?:[\u2700-\u27bf]|(?:\ud83c[\udde6-\uddff]){2}|[\ud800-\udbff][\udc00-\udfff]|[\u0023-\u0039]\ufe0f?\u20e3|\u3299|\u3297|\u303d|\u3030|\u24c2|\ud83c[\udd70-\udd71]|\ud83c[\udd7e-\udd7f]|\ud83c\udd8e|\ud83c[\udd91-\udd9a]|\ud83c[\udde6-\uddff]|[\ud83c[\ude01-\ude02]|\ud83c\ude1a|\ud83c\ude2f|[\ud83c[\ude32-\ude3a]|[\ud83c[\ude50-\ude51]|\u203c|\u2049|[\u25aa-\u25ab]|\u25b6|\u25c0|[\u25fb-\u25fe]|\u00a9|\u00ae|\u2122|\u2139|\ud83c\udc04|[\u2600-\u26FF]|\u2b05|\u2b06|\u2b07|\u2b1b|\u2b1c|\u2b50|\u2b55|\u231a|\u231b|\u2328|\u23cf|[\u23e9-\u23f3]|[\u23f8-\u23fa]|\ud83c\udccf|\u2934|\u2935|[\u2190-\u21ff])' // U+1F680 to U+1F6FF
+          ];
+          if (str.match(ranges.join('|'))) {
+              return true;
+          } else {
+              return false;
+          }
+      }
+
       // Data
-      var blocks = [
+      /*var blocks = [
         [
         {
           me: true,
@@ -293,7 +486,7 @@
           text: "blublu1"
         },
         ],
-      ]
+      ]*/
 
       initialize()
     </script>
