@@ -191,7 +191,7 @@
         position: absolute;
         font-family: helvetica; /*'Mukta', sans-serif;*/
         font-size: 14pt;
-        padding: 7px 14px;
+        padding: 7px 13px;
        
         border-radius: 17px;
         display: inline-block;
@@ -200,7 +200,7 @@
 
         height: 28px;
 
-        width: 292px;
+        width: 294px;
         left: 50%;
         margin-left: -160px;
         
@@ -216,6 +216,12 @@
         bottom: 30px;
         right: 30px;
         /* TODO font */
+      }
+
+      .copyright a,
+      .sendSmsContainer a {
+            color: black;
+            text-decoration: none;
       }
 
       #copyright {
@@ -252,12 +258,13 @@
     <div class="smsContainer" id="smsContainer"> 
       <div class="smsList" id="smsList"></div>
       <div class="sendSmsContainer" id="sendSms">
-        <div class="sendSmsTextField">Je suis glas, glace de toi - 2020 - V</div>
+        <div class="sendSmsTextField">Je suis glas, glace de toi - 2020 - <a href="https://www.vaxt.fr"  target="_blank">V</a></div>
       </div>
     </div>
     <div class="countDown" id="countDown"></div>
-    <div class="copyright" id="copyright">Je suis glas, glace de toi - 2020 - V</div>
-  
+    <div class="copyright" id="copyright">Je suis glas, glace de toi - 2020 - <a href="https://www.vaxt.fr"  target="_blank">V</a></div>
+
+
 
     <div class="explanationsContainer" id="explanations">
       <div class="explanations" >
@@ -267,19 +274,19 @@
 <p>Notre téléphone est devenu à la fois 
 <br>le messager, l’interprète et le pourvoyeur 
 <br>de nos relations sans lequel notre accès 
-<br>à l’Amour serait bridé.</p>
+<br>à l’amour serait bridé.</p>
 
 <p>Être en couple c’est un téléphone 
 <br>qui vibre en continu.</p>
 
 <p>Un message qui arrive ou qu’on attend.</p>
 
-<p>L’Amour, ardent ou réservé, 
+<p>L’amour, ardent ou réservé, 
 <br>n’a plus le temps des délais contraints 
 <br>de la lettre qui parcourt monts 
 <br>et merveilles pour délivrer son message.</p>
 
-<p>L’Amour est devenu un éternel présent, 
+<p>L’amour est devenu un éternel présent, 
 <br>où tout nous connecte en temps réel. 
 <br>Que les nouvelles soient bonnes 
 <br>ou mauvaises, nous n’avons 
@@ -321,7 +328,6 @@
 <p>Mais chaque clic ouvre 
 <br>une fenêtre temporelle, 
 <br>un instant de quelques secondes, 
-<br>ou de quelques mois, 
 <br>un aperçu de ce que nous vivons tous 
 <br>lorsqu’on partage quelque chose 
 <br>avec quelqu’un, ami ou amant.</p>
@@ -538,11 +544,17 @@
       // init
       function initialize() {
         document.getElementById('smsContainer').addEventListener("click", stopFlood)
-        
-      
+              
         document.getElementById("explanations").addEventListener("click",
           ev => {
-            document.getElementById("explanations").style.display = "none"
+            // prevent closing explanation on click on the links.
+            try {
+                if (ev.target.nodeName.toLowerCase() == 'a') {
+                    return
+                }
+            } catch(e) {}
+
+            document.getElementById("explanations").style.display = "none"    
           })
         startFlood()  
       }

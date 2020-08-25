@@ -3749,7 +3749,7 @@ var blocks = [
    text:  "💋🍆🌶🌶"},
   {
    me: true,
-   text: "🤚🔥☺️"
+   text: "🤚🔥"
   },
   {
    me: false,
@@ -3757,9 +3757,6 @@ var blocks = [
   ],
 
   [
-  {
-   me: false,
-   text: "☺️"},
   {
    me: true,
    text: "💙"
@@ -6518,9 +6515,6 @@ var blocks = [
   {
    me: false,
    text: "Ben on a été toute la journée ensemble 💙🖤 "},
-  {
-   me: false,
-   text:  "☺️"},
   {
    me: true,
    text: "Jajaja "},
