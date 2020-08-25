@@ -7,19 +7,15 @@ var blocks = [
   },
   {
    me: true,
-   text: "Ouai grave "
+   text: "Ouai grave"
   },
   {
    me: true,
-   text: "Ça fait plaisir "
+   text: "Ça fait plaisir"
   },
   {
    me: false,
    text: "Carrément"
-  },
-  {
-   me: false,
-   text: "blabla3"
   },
   ],
 
@@ -58,7 +54,7 @@ var blocks = [
   },
   {
    me: true,
-   text: "J’te préviens que t’ai toutes les infos "
+   text: "J’te préviens que t’ai toutes les infos"
   },
   {
    me: false,
@@ -195,7 +191,7 @@ var blocks = [
   },
   {
    me: true,
-   text: "Et la je vais jouer aux échecs avec une pote"
+   text: "Et là je vais jouer aux échecs avec une pote"
   },
   {
    me: false,
@@ -364,7 +360,7 @@ var blocks = [
   },
   {
    me: false,
-   text: "On a parlé du bon vieux temps et on a eu être honnête sur nos ressentis perso sur les gens que nous avons croisé et sur l’institution de l’académie des beaux arts en elle-même!"
+   text: "On a parlé du bon vieux temps et on a eu être honnête sur nos ressentis perso sur les gens que nous avons croisé et sur l’institution de l’académie des BA en elle-même!"
   },
   {
    me: false,
@@ -419,7 +415,7 @@ var blocks = [
   },
   {
    me: false,
-   text: "A moins que tu sois déjà rentrée?"
+   text: "À moins que tu sois déjà rentrée?"
   },
   {
    me: true,
@@ -694,7 +690,7 @@ var blocks = [
    text: "Bien ouej!"},
   {
    me: true,
-   text: "A tester"
+   text: "À tester"
   },
   {
    me: false,
@@ -730,38 +726,35 @@ var blocks = [
   },
   {
    me: false,
-   text: "Ou en eau benite! "},
+   text: "Ou en eau benite!"},
   {
    me: false,
-   text: "Avec tout les vampires que tu croises! "},
+   text: "Avec tout les vampires que tu croises!"},
   {
    me: false,
-   text:  "J’ai terminé "},
+   text:  "J’ai terminé"},
   {
    me: false,
    text:  "Je vais retrouver des potes là"},
   {
    me: true,
-   text: "Ok cool "},
+   text: "Ok cool"},
   {
    me: true,
-   text:  "Bah on se capte demain "},
+   text:  "Bah on se capte demain"},
   {
    me: true,
    text:  "🙃"
   },
   {
    me: false,
-   text: "En mode chill! "},
-  {
-   me: false,
-   text:  ""},
+   text: "En mode chill!"},
   {
    me: false,
    text: "Oui!!! C’est noté! Trop hâte 😘"},
   {
    me: true,
-   text: "Enjoy "},
+   text: "Enjoy"},
   {
    me: true,
    text:  "😘"
@@ -792,7 +785,7 @@ var blocks = [
   },
   {
    me: false,
-   text: "J’ai été payé par le C. "},
+   text: "J’ai été payé par le C."},
   {
    me: false,
    text: "Du coup je bosse demain 😅"},
@@ -815,10 +808,10 @@ var blocks = [
   },
   {
    me: false,
-   text: "What? "},
+   text: "What?"},
   {
    me: false,
-   text:  "Aaaah "},
+   text:  "Aaaah"},
   {
    me: false,
    text:  "Okok"},
@@ -828,23 +821,23 @@ var blocks = [
   },
   {
    me: false,
-   text: "Bah oui ;) "},
+   text: "Bah oui ;)"},
   {
    me: false,
-   text:  "Alors j’ai une table à Los GUEROS » pour 20h30 (on a pris notre verre de vin juste à côté)"},
+   text:  "Alors j’ai une table à Los G. » pour 20h30 (on a pris notre verre de vin juste à côté)"},
   {
    me: true,
-   text: "Ok 😎 "},
+   text: "Ok 😎"},
   {
    me: true,
-   text:  "On se retrouve là bas "},
+   text:  "On se retrouve là bas"},
   {
    me: true,
    text:  "Épée des humbles !"
   },
   {
    me: false,
-   text: "Héhé! "},
+   text: "Héhé!"},
   {
    me: false,
    text: "😬"},
@@ -857,83 +850,83 @@ var blocks = [
    text: "Ben je te revois ;)"},
   {
    me: true,
-   text: "No brain anymore "},
+   text: "No brain anymore"},
   {
    me: true,
-   text:  "Nan nan "},
+   text:  "Nan nan"},
   {
    me: true,
    text:  "Dès demain je pars en courant"
   },
   {
    me: false,
-   text: "J’ai trouvé ça cute que tu le gardes et très mal poli et mal placé de te lâcher « stup mon pull! » 😂 "},
+   text: "J’ai trouvé ça cute que tu le gardes et très mal poli et mal placé de te lâcher « stup mon pull! » 😂"},
   {
    me: false,
    text:  "😁"},
   {
    me: true,
-   text: "Jusqu’en Ukraine "},
+   text: "Jusqu’en Ukraine"},
   {
    me: true,
-   text:  "😛 "},
+   text:  "😛"},
   {
    me: true,
-   text:  "Enfin bon "},
+   text:  "Enfin bon"},
   {
    me: true,
-   text:  "Bonne nuit la biche "},
+   text:  "Bonne nuit la biche"},
   {
    me: true,
    text:  "Merci pour la soirée"
   },
   {
    me: false,
-   text: "Bonne Nuit! "},
+   text: "Bonne Nuit!"},
   {
    me: false,
-   text: "C’était trop cool "},
+   text: "C’était trop cool"},
   {
    me: false,
    text: "Plaisir partagé 😘"},
   {
    me: true,
-   text: "Des kiss kiss "},
+   text: "Des kiss kiss"},
   {
    me: true,
    text:  "😘"
   },
   {
    me: false,
-   text: "Oh oui des kiss 💋 "},
+   text: "Oh oui des kiss 💋"},
   ],
 
   [
   {
    me: true,
-   text: "🙃 "},
+   text: "🙃"},
   {
    me: true,
    text:  "Ça va ?"
   },
   {
    me: false,
-   text: "Oui "},
+   text: "Oui"},
   {
    me: false,
-   text: "Un peu fatigué mais ça va :) "},
+   text: "Un peu fatigué mais ça va :)"},
   {
    me: false,
-   text:  "Tu n’as pas rêvé d’U ça va?!"},
+   text:  "Tu n’as pas rêvé d’U. ça va?!"},
   {
    me: true,
    text: "J’ai regardé mon phone trop vite ce matin "},
   {
    me: true,
-   text:  "Tout oublié "},
+   text:  "Tout oublié"},
   {
    me: true,
-   text:  "La je vais pecho des fruits "},
+   text:  "La je vais pecho des fruits"},
   {
    me: true,
    text:  "Et boire un café"
@@ -946,7 +939,7 @@ var blocks = [
    text:  "Bon petit dej ;)"},
   {
    me: true,
-   text: "🙃 "},
+   text: "🙃"},
   {
    me: true,
    text:  "Ah oui il est 13h quand même "},
@@ -959,22 +952,22 @@ var blocks = [
    text: "Mince! "},
   {
    me: false,
-   text: "Je viens de voir ton message! 😱 "},
+   text: "Je viens de voir ton message! 😱"},
   {
    me: false,
-   text:  "Ce “tournois” m’a absorbé! "},
+   text:  "Ce “tournois” m’a absorbé!"},
   {
    me: false,
-   text: "Alors c’est quoi ton programme de vacancière en ce moment?! "},
+   text: "Alors c’est quoi ton programme de vacancière en ce moment?!"},
   {
    me: false,
-   text:  "Je vais bientôt me coucher "},
+   text:  "Je vais bientôt me coucher"},
   {
    me: false,
-   text: "En mode sportif pro 😂 "},
+   text: "En mode sportif pro 😂"},
   {
    me: false,
-   text: "Mais je laisse mon tel à côté de moi... ;) "},
+   text: "Mais je laisse mon tel à côté de moi... ;)"},
   {
    me: false,
    text: "Bonne soirée"},
@@ -983,37 +976,37 @@ var blocks = [
   [
   {
    me: false,
-   text: "Il faut boire! "},
+   text: "Il faut boire!"},
   {
    me: false,
-   text: "C’est important l’hydratation! "},
+   text: "C’est important l’hydratation!"},
   {
    me: false,
-   text: "Moi j’aime que tu sois en vacances! "},
+   text: "Moi j’aime que tu sois en vacances!"},
   {
    me: false,
    text: "💋"},
   {
    me: true,
-   text: "Oh oui "},
+   text: "Oh oui"},
   {
    me: true,
-   text:  "Puis bon après toute ces vacances arrivera le moment du sérieux "},
+   text:  "Puis bon après toute ces vacances arrivera le moment du sérieux"},
   {
    me: true,
-   text:  "Omg "},
+   text:  "Omg"},
   {
    me: true,
-   text:  "Mais alors oui "},
+   text:  "Mais alors oui"},
   {
    me: true,
-   text:  "Le tournois c’était aujourd’hui "},
+   text:  "Le tournois c’était aujourd’hui"},
   {
    me: true,
-   text:  "T’as tout defonce ? "},
+   text:  "T’as tout defonce ?"},
   {
    me: true,
-   text:  "Je suppose que tu dors "},
+   text:  "Je suppose que tu dors"},
   {
    me: true,
    text:  "Des bises la biche"
@@ -1027,7 +1020,7 @@ var blocks = [
    text: "Hello la biche "},
   {
    me: true,
-   text:  "Ça va ? "},
+   text:  "Ça va ?"},
   {
    me: true,
    text:  "Oui oui je me réveille"
@@ -1037,41 +1030,41 @@ var blocks = [
    text: "Nice!!!!"},
   {
    me: true,
-   text: "Et alors les tournois préparatoires ? "},
+   text: "Et alors les tournois préparatoires ?"},
   {
    me: true,
    text:  "T’es prêt pour la big compet ?"
   },
   {
    me: false,
-   text: "Je viens de le terminer "},
+   text: "Je viens de le terminer"},
   {
    me: false,
-   text: "Ça a été mon pire résultat là depuis des mois "},
+   text: "Ça a été mon pire résultat là depuis des mois"},
   {
    me: false,
-   text: "1 victoire / 3 défaites "},
+   text: "1 victoire / 3 défaites"},
   {
    me: false,
-   text: "Mais j’ai fait plein de test de cartes conclusion "},
+   text: "Mais j’ai fait plein de test de cartes conclusion"},
   {
    me: false,
-   text: "Je jouerai ma liste classique "},
+   text: "Je jouerai ma liste classique"},
   {
    me: false,
-   text:  "Je pense être prêt "},
+   text:  "Je pense être prêt"},
   {
    me: false,
-   text:  "Du repos "},
+   text:  "Du repos"},
   {
    me: false,
    text:  "Et un peu de lecture"},
   {
    me: true,
-   text: "Ah oui bouquiner, très bonne idée, je vais faire ça "},
+   text: "Ah oui bouquiner, très bonne idée, je vais faire ça"},
   {
    me: true,
-   text:  "Je suis totalement out today 😂 "},
+   text:  "Je suis totalement out today 😂"},
   {
    me: true,
    text:  "Juste envie de dormir"
@@ -1081,7 +1074,7 @@ var blocks = [
   [
   {
    me: true,
-   text: "Bah D bon courage pour demain "},
+   text: "Bah D. bon courage pour demain "},
   {
    me: true,
    text:  "Et bonne chance "},
@@ -1094,7 +1087,7 @@ var blocks = [
    text: "Yes! "},
   {
    me: false,
-   text: "Quand j’ai fini de t’appelle et on ira se prendre un verre après? "},
+   text: "Quand j’ai fini de t’appelle et on ira se prendre un verre après?"},
   {
    me: false,
    text:  "Meme grailler si C’est l’heure "},
@@ -1113,41 +1106,41 @@ var blocks = [
    text: "Et ouai ouai "},
   {
    me: true,
-   text:  "Je suis en vacances "},
+   text:  "Je suis en vacances"},
   {
    me: true,
-   text:  "En ce moment "},
+   text:  "En ce moment"},
   {
    me: true,
-   text:  "C’est pas mal "},
+   text:  "C’est pas mal"},
   {
    me: true,
    text:  "Tu connais ?"
   },
   {
    me: false,
-   text: "Les vacances? "},
+   text: "Les vacances?"},
   {
    me: false,
-   text: "Ouai ça me parle "},
+   text: "Ouai ça me parle"},
   {
    me: false,
    text:  "Cest pas mal je crois?!"},
   {
    me: true,
-   text: "C’est plutôt niceeeee "},
+   text: "C’est plutôt niceeeee"},
   {
    me: true,
-   text:  "Ça se vend en supermarché "},
+   text:  "Ça se vend en supermarché"},
   {
    me: true,
-   text:  "En barre "},
+   text:  "En barre"},
   {
    me: true,
-   text:  "Des kiss kiss "},
+   text:  "Des kiss kiss"},
   {
    me: true,
-   text:  "D "},
+   text:  "D."},
   {
    me: true,
    text:  "Kill it"
@@ -1157,10 +1150,10 @@ var blocks = [
    text: "Bisous! Hâte de voir tes yeux en amande! 😱(mais qu’il est relou ce mec!)"},
   {
    me: true,
-   text: "😂 "},
+   text: "😂"},
   {
    me: true,
-   text:  "Pareil "},
+   text:  "Pareil"},
   {
    me: true,
    text:  "Mais avec tes tâches de rousseurs"
@@ -1189,7 +1182,7 @@ var blocks = [
    text:  "Pareil au supermarché juste à côté du rayon vacances ;)"},
   {
    me: true,
-   text: "Ouhhhh "},
+   text: "Ouhhhh"},
   {
    me: true,
    text:  "💙"
@@ -1208,7 +1201,7 @@ var blocks = [
   [
   {
    me: false,
-   text: "Hello 👋 "},
+   text: "Hello 👋"},
   {
    me: false,
    text: "Je n’ai pas toute ma voix mais si tu es dispo ravi d’échanger avec toi avec de mots et des dessins "},
@@ -1292,13 +1285,13 @@ var blocks = [
    text: "Je t’entend le dire avec l’accent ricain sarcastique "},
   {
    me: false,
-   text:  "Aah ok ok"},
+   text: "Aah ok ok"},
   {
    me: true,
-   text: "Exactly "},
+   text: "Exactly"},
   {
    me: true,
-   text:  "You know it"
+   text: "You know it"
   },
   {
    me: false,
@@ -1312,7 +1305,7 @@ var blocks = [
   },
   {
    me: false,
-   text: "Ok ok "},
+   text: "Ok ok"},
   {
    me: false,
    text:  "Attention"},
@@ -1357,7 +1350,7 @@ var blocks = [
    text:  "Tu es chez tes grands parents?"},
   {
    me: true,
-   text: "Yep "},
+   text: "Yep"},
   {
    me: true,
    text:  "Tu me fais me répéter"
@@ -1367,7 +1360,7 @@ var blocks = [
    text: "Nice! ;)"},
   {
    me: true,
-   text: "😂 "},
+   text: "😂"},
   {
    me: true,
    text:  "Bah euh tranquille"
@@ -1394,20 +1387,20 @@ var blocks = [
    text: "Je vais te laisser profiter d’eux alors?"},
   {
    me: true,
-   text: "Et je fumé un joint "},
+   text: "Et je fumé un joint"},
   {
    me: true,
-   text:  "Et j’ai pris ton vinyl "},
+   text:  "Et j’ai pris ton vinyl"},
   {
    me: true,
-   text:  "Car mon lecteur est ici "},
+   text:  "Car mon lecteur est ici"},
   {
    me: true,
    text:  "D’ailleurs je vais le mettre now"
   },
   {
    me: false,
-   text: "Héhé "},
+   text: "Héhé"},
   {
    me: false,
    text: "Tu me diras ce que tu en penses "},
@@ -1437,7 +1430,7 @@ var blocks = [
    text: "Ok "},
   {
    me: true,
-   text:  "Une partie de magic "},
+   text:  "Une partie de magic"},
   {
    me: true,
    text:  "Aussi "},
@@ -1447,7 +1440,7 @@ var blocks = [
   },
   {
    me: false,
-   text: "Carrément ;) "},
+   text: "Carrément ;)"},
   {
    me: false,
    text: "J’ai trop envie de continuer ton apprentissage "},
@@ -1462,7 +1455,7 @@ var blocks = [
    text:  "Je t’en avais parlé je crois"},
   {
    me: true,
-   text: "Yes yes "},
+   text: "Yes yes"},
   {
    me: true,
    text:  "Genre dimanche ?"
@@ -1472,7 +1465,7 @@ var blocks = [
    text: "Par exemple oui"},
   {
    me: true,
-   text: "faut prendre rendez-vous avec mon calendrier 😛 "},
+   text: "faut prendre rendez-vous avec mon calendrier 😛"},
   {
    me: true,
    text:  "La voix de connasse"
@@ -1485,36 +1478,36 @@ var blocks = [
    text:  "Haha"},
   {
    me: true,
-   text: "Et tu tombes dedans "},
+   text: "Et tu tombes dedans"},
   {
    me: true,
    text:  "Hehe"
   },
   {
    me: false,
-   text: "Mais non! "},
+   text: "Mais non!"},
   {
    me: false,
-   text: "Je sais que tu es ok ;) "},
+   text: "Je sais que tu es ok ;)"},
   {
    me: false,
    text: "Et vendredi si on commence pas trop tard on peut se faire un vrai tour des bonnes galerie "},
   {
    me: false,
-   text:  "Galeries* "},
+   text:  "Galeries*"},
   {
    me: false,
    text:  "Ça pourrait être cool ça "},
   {
    me: false,
-   text:  "Goodman / Perrotin / Ropac / VMH..."},
+   text:  "G. / P. / R. / V. ..."},
   {
    me: true,
    text: "Yep"
   },
   {
    me: false,
-   text: "Wow 3 more dates "},
+   text: "Wow 3 more dates"},
   {
    me: false,
    text: "I’m a lucky man! 😅"},
@@ -1530,10 +1523,10 @@ var blocks = [
   [
   {
    me: true,
-   text: "Je vais bouquiner un peu "},
+   text: "Je vais bouquiner un peu"},
   {
    me: true,
-   text:  "J’ai du Fernand leger"
+   text:  "J’ai du F. L."
   },
   {
    me: false,
@@ -1644,7 +1637,7 @@ var blocks = [
    text: "Being sad ? "},
   {
    me: false,
-   text: "Why 😶 "},
+   text: "Why 😶"},
   {
    me: false,
    text:  "Je t’appelle?"},
@@ -1690,7 +1683,7 @@ var blocks = [
    text: "Ca va mieux?"},
   {
    me: true,
-   text: "🙃 "},
+   text: "🙃"},
   {
    me: true,
    text:  "Hey yo"
@@ -1704,10 +1697,10 @@ var blocks = [
   },
   {
    me: false,
-   text: "Hey "},
+   text: "Hey"},
   {
    me: false,
-   text: "You "},
+   text: "You"},
   {
    me: false,
    text: "My eyes were starting to close off"},
@@ -1726,10 +1719,10 @@ var blocks = [
    text:  "Dans leur approche de la prod"},
   {
    me: true,
-   text: "Hummmm "},
+   text: "Hummmm"},
   {
    me: true,
-   text:  "Ok "},
+   text:  "Ok"},
   {
    me: true,
    text:  "La je vais prendre un Uber "},
@@ -1748,7 +1741,7 @@ var blocks = [
    text: "Ils revoient le catalogue à la baisse etc... "},
   {
    me: false,
-   text: "rien n’est acte"},
+   text: "rien n’est acté"},
   {
    me: true,
    text: "Et on se capte pour le café ?"
@@ -1764,7 +1757,7 @@ var blocks = [
   [
   {
    me: false,
-   text: "Merci "},
+   text: "Merci"},
   {
    me: false,
    text: "J’ai presque ma voix et je tousse à peine"},
@@ -1777,10 +1770,7 @@ var blocks = [
    text: "Demain serait sur pied! (Croise les doigts!) "},
   {
    me: false,
-   text:  ""},
-  {
-   me: false,
-   text: "Rentre bien😘 "},
+   text: "Rentre bien😘"},
   {
    me: false,
    text:  "😂😂😂😂😂"},
@@ -1796,23 +1786,23 @@ var blocks = [
    text: "Ta période d’incubation?"},
   {
    me: true,
-   text: "🔥 je te brûle sur le bûcher "},
+   text: "🔥 je te brûle sur le bûcher"},
   {
    me: true,
    text:  "Tel une sorcière"
   },
   {
    me: false,
-   text: "T’as géré non?! 😬 "},
+   text: "T’as géré non?! 😬"},
   {
    me: false,
-   text:  "Sorcière "},
+   text:  "Sorcière"},
   {
    me: false,
    text: "Ça te va si bien"},
   {
    me: true,
-   text: "Euh là c’est toi "},
+   text: "Euh là c’est toi"},
   {
    me: true,
    text:  "Masculin / féminin"
@@ -1832,26 +1822,26 @@ var blocks = [
    text: "You will be find"},
   {
    me: true,
-   text: "Lapsus "},
+   text: "Lapsus"},
   {
    me: true,
    text:  "😘"
   },
   {
    me: false,
-   text: "😅 "},
+   text: "😅"},
   {
    me: false,
-   text:  "True "},
+   text:  "True"},
   {
    me: false,
-   text:  "Fine* "},
+   text:  "Fine*"},
   {
    me: false,
    text:  "Love your brain so fucking much"},
   {
    me: true,
-   text: "Omg I have a purpose tomorrow "},
+   text: "Omg I have a purpose tomorrow"},
   {
    me: true,
    text:  "How am I gonna deaaaaal "},
@@ -1885,7 +1875,7 @@ var blocks = [
    text: "🙃"},
   {
    me: true,
-   text: "While waiting for the digestion "},
+   text: "While waiting for the digestion"},
   {
    me: true,
    text:  "You forgot about it"
@@ -1916,7 +1906,7 @@ var blocks = [
    text: "I will 😬"},
   {
    me: true,
-   text: "And dream about "},
+   text: "And dream about"},
   {
    me: true,
    text:  "Story of the night"
@@ -1953,23 +1943,23 @@ var blocks = [
    text: "Ca va!"},
   {
    me: true,
-   text: "J’ai pas fini "},
+   text: "J’ai pas fini"},
   {
    me: true,
    text:  "T’as encore cours ?"
   },
   {
    me: false,
-   text: "Plus aujourd’hui. "},
+   text: "Plus aujourd’hui."},
   {
    me: false,
-   text: "Je bosse de chez moi. "},
+   text: "Je bosse de chez moi."},
   {
    me: false,
    text:  "Mais 20h si tu es tjs ok ;)"},
   {
    me: true,
-   text: "Ok je bosse à la N.R. "},
+   text: "Ok je bosse à la N.R."},
   {
    me: true,
    text:  "Si tu veux bosser avec moi "},
@@ -1979,16 +1969,16 @@ var blocks = [
   },
   {
    me: false,
-   text: "Même pas "},
+   text: "Même pas"},
   {
    me: false,
-   text: "J’ai juste mangé des bonbons qui ont un goût de ciment 😱😫 "},
+   text: "J’ai juste mangé des bonbons qui ont un goût de ciment 😱😫"},
   {
    me: false,
-   text: "Mais pas d’antibiotiques ;) "},
+   text: "Mais pas d’antibiotiques ;)"},
   {
    me: false,
-   text:  "Bosser? ... "},
+   text:  "Bosser? ..."},
   {
    me: false,
    text: "Ben je vais te laisser tranquille "},
@@ -2007,7 +1997,7 @@ var blocks = [
    text: "Tu vas me déconcentrer....? "},
   {
    me: false,
-   text: "🙈 "},
+   text: "🙈"},
   {
    me: false,
    text: "Arrête je rougi! 😬😊"},
@@ -2037,13 +2027,13 @@ var blocks = [
   },
   {
    me: false,
-   text: "Ah la relou! "},
+   text: "Ah la relou!"},
   {
    me: false,
    text: "C’est fait 😘"},
   {
    me: true,
-   text: "😛 "},
+   text: "😛"},
   {
    me: true,
    text:  "Je vais pas tarder "},
@@ -2073,14 +2063,14 @@ var blocks = [
    text: "Mais nan!!!$"},
   {
    me: true,
-   text: "J’ai defoncé trois personnes "},
+   text: "J’ai defoncé trois personnes"},
   {
    me: true,
    text:  "Mais naaaahhhh 😛"
   },
   {
    me: false,
-   text: "😶 "},
+   text: "😶"},
   {
    me: false,
    text:  "🙃"},
@@ -2099,25 +2089,25 @@ var blocks = [
   },
   {
    me: false,
-   text: "🙈 "},
+   text: "🙈"},
   {
    me: false,
    text: "Bonne Nuit C! "},
   {
    me: false,
-   text: "😘 "},
+   text: "😘"},
   {
    me: false,
    text: "Défonce tout demain et moi je méditerai"},
   {
    me: true,
-   text: "Sûre 💩 "},
+   text: "Sûre 💩"},
   {
    me: true,
-   text:  "😘 "},
+   text:  "😘"},
   {
    me: true,
-   text:  "Jajaja le 💩 "},
+   text:  "Jajaja le 💩"},
   {
    me: true,
    text:  "Lapsus emoji "},
@@ -2139,13 +2129,13 @@ var blocks = [
    text: "Ho!!! "},
   {
    me: false,
-   text: "😅😂 "},
+   text: "😅😂"},
   {
    me: false,
    text: "Si tu insistes je débarque 🤪"},
   {
    me: true,
-   text: "Que d’envie "},
+   text: "Que d’envie"},
   {
    me: true,
    text:  "Et d’hésitation"
@@ -2155,7 +2145,7 @@ var blocks = [
    text: "La partie d’échec a commencé ... "},
   {
    me: false,
-   text:  "Non "},
+   text:  "Non"},
   {
    me: false,
    text: "Ne craquons pas ;)"},
@@ -2165,13 +2155,13 @@ var blocks = [
   },
   {
    me: false,
-   text: "Ahahah "},
+   text: "Ahahah"},
   {
    me: false,
    text: "Toi aussi tu aimes bien retourner les situations! 🤓"},
   {
    me: true,
-   text: "😘 "},
+   text: "😘"},
   {
    me: true,
    text:  "Bonne nuit D"
@@ -2187,16 +2177,16 @@ var blocks = [
   [
   {
    me: true,
-   text: "Hey! "},
+   text: "Hey!"},
   {
    me: true,
    text: "Pas beaucoup dormi hier soir, "},
   {
    me: true,
-   text: "Les baisers langoureux et autres sexy feet m’ont hypnotisé 😮 "},
+   text: "Les baisers langoureux et autres sexy feet m’ont hypnotisé 😮"},
   {
    me: true,
-   text: "Je me dit aussi que c’était une bonne idée de ne pas se réveillé à l’arrache pour notre première soirée ensemble ;) "},
+   text: "Je me dit aussi que c’était une bonne idée de ne pas se réveillé à l’arrache pour notre première soirée ensemble ;)"},
   {
    me: true,
    text: "😘"
@@ -2213,7 +2203,7 @@ var blocks = [
    text: "Bah alors bichette?"},
   {
    me: true,
-   text: "😘 "},
+   text: "😘"},
   {
    me: true,
    text:  "Et doneeeee "},
@@ -2226,13 +2216,13 @@ var blocks = [
   [
   {
    me: false,
-   text: "Nickel "},
+   text: "Nickel"},
   {
    me: false,
    text:  "Comment tu vas bichette?!"},
   {
    me: true,
-   text: "Oh yeahhh "},
+   text: "Oh yeahhh"},
   {
    me: true,
    text:  "Et toi ?"
@@ -2242,7 +2232,7 @@ var blocks = [
    text: "Oh yeah! "},
   {
    me: false,
-   text: ";) "},
+   text: ";)"},
   {
    me: false,
    text: "Ça bosse le Magic ;) "},
@@ -2251,10 +2241,10 @@ var blocks = [
    text:  "Je pense à tes pieds 🙈"},
   {
    me: true,
-   text: "😂 "},
+   text: "😂"},
   {
    me: true,
-   text:  "Omg "},
+   text:  "Omg"},
   {
    me: true,
    text:  "Well Well "},
@@ -2298,14 +2288,14 @@ var blocks = [
    text: "🎶Take me with you 🎶"},
   {
    me: true,
-   text: "Moucha gaga "},
+   text: "Moucha gaga"},
   {
    me: true,
    text:  "Et je file dormir"
   },
   {
    me: false,
-   text: "Ahahaha "},
+   text: "Ahahaha"},
   {
    me: false,
    text: "Il est tôt papillon?! ;) "},
@@ -2330,7 +2320,7 @@ var blocks = [
    text: "Repose toi ;) "},
   {
    me: false,
-   text: "Et de l’eau ;) 😘"},
+   text: "Et de l’eau 😘"},
   {
    me: true,
    text: "Yes yes "},
@@ -2396,17 +2386,17 @@ var blocks = [
    text: "« He doesn’t like it » 😂😂😂😂"},
   {
    me: true,
-   text: "Well "},
+   text: "Well"},
   {
    me: true,
    text:  "That’s an hard point"
   },
   {
    me: false,
-   text: "It is "},
+   text: "It is"},
   {
    me: false,
-   text: "But as long I can drink ;)"},
+   text: "But as long as I can drink ;)"},
   {
    me: true,
    text: "See you tomorrow 😘 "},
@@ -2419,7 +2409,7 @@ var blocks = [
   },
   {
    me: false,
-   text: "Yeah! "},
+   text: "Yeah!"},
   {
    me: false,
    text: "Have some good sleep! 😘"},
@@ -2469,7 +2459,7 @@ var blocks = [
   },
   {
    me: false,
-   text: "Hey! "},
+   text: "Hey!"},
   {
    me: false,
    text: "Sounds good to hear"},
@@ -2512,7 +2502,7 @@ var blocks = [
   },
   {
    me: false,
-   text: "Yep! "},
+   text: "Yep!"},
   {
    me: false,
    text: "Allez! "},
@@ -2554,7 +2544,7 @@ var blocks = [
    text:  "Tes cuillères sont propres! "},
   {
    me: false,
-   text: "J’arrive 😘 "},
+   text: "J’arrive 😘"},
   {
    me: false,
    text:  "Termine "},
@@ -2603,7 +2593,7 @@ var blocks = [
    text: "C’est au zero - zero "},
   {
    me: false,
-   text:  "Rue Amelot "},
+   text:  "Rue Amelot"},
   {
    me: false,
    text: "On arrive la "},
@@ -2629,7 +2619,7 @@ var blocks = [
   },
   {
    me: true,
-   text: "Hey "},
+   text: "Hey"},
   {
    me: true,
    text:  "Deso je réponds tard "},
@@ -2667,7 +2657,7 @@ var blocks = [
    text: "Prend soin de toi "},
   {
    me: false,
-   text:  "Bisous "},
+   text:  "Bisous"},
   {
    me: false,
    text: "D"},
@@ -2676,7 +2666,7 @@ var blocks = [
   [
   {
    me: true,
-   text: "Hey 🙃 "},
+   text: "Hey 🙃"},
   {
    me: true,
    text:  "On va prendre un café tout à l’heure ?"
@@ -2705,13 +2695,13 @@ var blocks = [
    text: "On a bientôt terminé aussi "},
   {
    me: false,
-   text:  "On vient de terminer avec ma pote A "},
+   text:  "On vient de terminer avec ma pote A."},
   {
    me: false,
    text: "Available whenever you are"},
   {
    me: true,
-   text: "Scoot "},
+   text: "Scoot"},
   {
    me: true,
    text:  "J’arrive"
@@ -2724,10 +2714,10 @@ var blocks = [
   [
   {
    me: true,
-   text: "😘 "},
+   text: "😘"},
   {
    me: true,
-   text:  "Bonne nuit D ! "},
+   text:  "Bonne nuit D !"},
   {
    me: true,
    text:  "I’m fucking dead 🙃"
@@ -2762,7 +2752,7 @@ var blocks = [
    text: "Ben oui! "},
   {
    me: false,
-   text: "Réel réel réel "},
+   text: "Réel réel réel"},
   {
    me: false,
    text: "Tu es bien réelle "},
@@ -2801,7 +2791,7 @@ var blocks = [
    text: "Juste vrai"},
   {
    me: true,
-   text: "Grand "},
+   text: "Grand"},
   {
    me: true,
    text:  "Bon allez je te laisse dormir "},
@@ -2811,7 +2801,7 @@ var blocks = [
   },
   {
    me: false,
-   text: "Hehe "},
+   text: "Hehe"},
   {
    me: false,
    text: "Je garde mon tel près moi 😘"},
@@ -2827,7 +2817,7 @@ var blocks = [
   [
   {
    me: false,
-   text: "Se réveiller,Ouvrir la fenêtre, mettre « Montréal » de Roosevelt, allumer une cigarette et danser...« Non non j’ai pas rêvé! Elle existe » Belle journée à toi,D"
+   text: "Se réveiller,Ouvrir la fenêtre, mettre « Montréal » de R., allumer une cigarette et danser...« Non non j’ai pas rêvé! Elle existe » Belle journée à toi,D"
   },
   {
    me: true,
@@ -2838,7 +2828,7 @@ var blocks = [
   [
   {
    me: true,
-   text: "😛 "},
+   text: "😛"},
   {
    me: true,
    text:  "Je me réveille "},
@@ -2867,7 +2857,7 @@ var blocks = [
    text: "Can I call you later?"},
   {
    me: true,
-   text: "Yes sûre "},
+   text: "Yes sûre"},
   {
    me: true,
    text:  "Kiss kiss"
@@ -2877,13 +2867,13 @@ var blocks = [
   [
   {
    me: false,
-   text: "Ta voix 😱... "},
+   text: "Ta voix 😱..."},
   {
    me: false,
    text: "C’est chaud quand même "},
   {
    me: false,
-   text: "Je vais être déconcentré 🙈🙃 "},
+   text: "Je vais être déconcentré 🙈🙃"},
   {
    me: false,
    text:  "Tu dors?"},
@@ -2892,7 +2882,7 @@ var blocks = [
    text: "J’ai fait une bonne sieste "},
   {
    me: true,
-   text:  "🙃 "},
+   text:  "🙃"},
   {
    me: true,
    text:  "Et toi, Morphée? "},
@@ -2959,7 +2949,7 @@ var blocks = [
   },
   {
    me: false,
-   text: "Oui... "},
+   text: "Oui..."},
   {
    me: false,
    text:  "Ben non non"},
@@ -2985,7 +2975,7 @@ var blocks = [
   },
   {
    me: false,
-   text: "😂😂😂 "},
+   text: "😂😂😂"},
   {
    me: false,
    text:  "Un vortex "},
@@ -3023,7 +3013,7 @@ var blocks = [
   },
   {
    me: false,
-   text: "🤷 "},
+   text: "🤷"},
   {
    me: false,
    text: "Mais tu me perturbes tellement (justement) "},
@@ -3038,17 +3028,17 @@ var blocks = [
    text:  "C’est Don Juan ou calimero "},
   {
    me: true,
-   text:  "😘 "},
+   text:  "😘"},
   {
    me: true,
    text:  "J’hésite"
   },
   {
    me: false,
-   text: "Don Calimero "},
+   text: "Don Calimero"},
   {
    me: false,
-   text:  "😂 "},
+   text:  "😂"},
   {
    me: false,
    text:  "Non non "},
@@ -3076,7 +3066,7 @@ var blocks = [
    text: "Kiss kiss (digital hein!)"},
   {
    me: true,
-   text: "😘 "},
+   text: "😘"},
   {
    me: true,
    text:  "La bibliothécaire qui pense que ça s’écrit : camassoutra"
@@ -3090,14 +3080,14 @@ var blocks = [
   },
   {
    me: false,
-   text: "“Tu m’as tuer”"},
+   text: "Tu m’as tuer"},
   {
    me: true,
    text: "Je pense qu’elle a toujours pas compris que le bouquin référence les positions sexuelles"
   },
   {
    me: false,
-   text: "Je sors de mon cours d’anglais "},
+   text: "Je sors de mon cours d’anglais"},
   {
    me: false,
    text: "Maintenant réunion ;) "},
@@ -3106,7 +3096,7 @@ var blocks = [
    text: "Alors le camassoutra ça ce mange chaud ou froid? 😂"},
   {
    me: true,
-   text: "Cru "},
+   text: "Cru"},
   {
    me: true,
    text:  "Ou en sauce ?"
@@ -3178,7 +3168,7 @@ var blocks = [
    text:  "Meme te raconter une histoire 🤓"},
   {
    me: true,
-   text: "So sexy "},
+   text: "So sexy"},
   {
    me: true,
    text:  "Blowing my mind"
@@ -3204,10 +3194,10 @@ var blocks = [
   },
   {
    me: false,
-   text: "Ahahaha "},
+   text: "Ahahaha"},
   {
    me: false,
-   text: "Tu es là patiente parfaite 😅"},
+   text: "Tu es la patiente parfaite 😅"},
   {
    me: true,
    text: "J’ai chaud"
@@ -3240,7 +3230,7 @@ var blocks = [
   },
   {
    me: false,
-   text: "Han! "},
+   text: "Han!"},
   {
    me: false,
    text: "J’étais sous la douche! "},
@@ -3281,10 +3271,10 @@ var blocks = [
   },
   {
    me: false,
-   text: "😮 "},
+   text: "😮"},
   {
    me: false,
-   text:  "Oui "},
+   text:  "Oui"},
   {
    me: false,
    text:  "Oui"},
@@ -3331,7 +3321,7 @@ var blocks = [
   },
   {
    me: false,
-   text: "Han! "},
+   text: "Han!"},
   {
    me: false,
    text: "Me gusta el tiempo contigo tambíen!"
@@ -3351,10 +3341,10 @@ var blocks = [
    text: "En 5 ans?! "},
   {
    me: false,
-   text: "F il a mis 50 ans!"},
+   text: "F. il a mis 50 ans!"},
   {
    me: true,
-   text: "Well "},
+   text: "Well"},
   {
    me: true,
    text:  "I have boobs"
@@ -3394,10 +3384,10 @@ var blocks = [
   },
   {
    me: false,
-   text: "Oui! "},
+   text: "Oui!"},
   {
    me: false,
-   text: "J’adore! "},
+   text: "J’adore!"},
   {
    me: false,
    text: "(Mais c’est une classe ... difficile) "},
@@ -3406,7 +3396,7 @@ var blocks = [
    text: "Mais je gère! "},
   {
    me: false,
-   text:  "La tout de suite "},
+   text:  "Là tout de suite "},
   {
    me: false,
    text: "Je voudrai être avec toi 😘"},
@@ -3419,7 +3409,7 @@ var blocks = [
   },
   {
    me: false,
-   text: "Han! "},
+   text: "Han!"},
   {
    me: false,
    text: "Bon dodo Bella! "},
@@ -3481,10 +3471,10 @@ var blocks = [
    text: "Ça va toi?"},
   {
    me: true,
-   text: "Ohhhhh "},
+   text: "Ohhhhh"},
   {
    me: true,
-   text:  "Bichette "},
+   text:  "Bichette"},
   {
    me: true,
    text:  "Oh bah réveil petit dej"
@@ -3509,7 +3499,7 @@ var blocks = [
    text:  "C’est ce que je commençais à écrire "},
   {
    me: true,
-   text:  "😂 "},
+   text:  "😂"},
   {
    me: true,
    text:  "Kiss kiss à toute"
@@ -3522,7 +3512,7 @@ var blocks = [
    text: "Je veux mon câlin! "},
   {
    me: false,
-   text: "A tout’ 😘 "},
+   text: "A tout’ 😘"},
   {
    me: false,
    text:  "Départ à 19h "},
@@ -3559,7 +3549,7 @@ var blocks = [
    text:  "J’y vais là"},
   {
    me: true,
-   text: "Ok 👌 "},
+   text: "Ok 👌"},
   {
    me: true,
    text:  "Des rêves "},
@@ -3569,7 +3559,7 @@ var blocks = [
   },
   {
    me: false,
-   text: "Mmmh "},
+   text: "Mmmh"},
   {
    me: false,
    text:  "Tu me les raconteras?! 😘"},
@@ -3582,7 +3572,7 @@ var blocks = [
    text: "A tout à l’heure Bella "},
   {
    me: false,
-   text: "😘 "},
+   text: "😘"},
   {
    me: false,
    text: "Je pense à toi"},
@@ -3591,13 +3581,13 @@ var blocks = [
   [
   {
    me: false,
-   text: "Cool! "},
+   text: "Cool!"},
   {
    me: false,
-   text: "Fais ça! "},
+   text: "Fais ça!"},
   {
    me: false,
-   text:  "Tu peux aussi passer faire un bisous si tu veux "},
+   text:  "Tu peux aussi passer faire un bisou si tu veux "},
   {
    me: false,
    text: "On est en train de builder Des jeu à Magic "},
@@ -3610,7 +3600,7 @@ var blocks = [
   },
   {
    me: false,
-   text: "😬 "},
+   text: "😬"},
   {
    me: false,
    text: "Viens après ;)"},
@@ -3626,7 +3616,7 @@ var blocks = [
    text: "Nous c’est Magic Magic Magic foot en fond 😂🤓 "},
   {
    me: false,
-   text: "Roh les beaufs "},
+   text: "Roh les beaufs"},
   {
    me: false,
    text:  "Ou viens après Ahahaha"},
@@ -3641,13 +3631,6 @@ var blocks = [
 
   [
   {
-   me: true,
-   text: "Coucou à B"
-  },
-  {
-   me: false,
-   text: "Coucou à K (de B) "},
-  {
    me: false,
    text: "Allez je te laisse faire du sport 😘"},
   {
@@ -3658,11 +3641,11 @@ var blocks = [
    text:  "Tu veux venir avec moi au truc de danse Turk ? "},
   {
    me: true,
-   text:  "Si B veut venir aussi"
+   text:  "Si B. veut venir aussi"
   },
   {
    me: false,
-   text: "C’est pas connaître B! 😂😂😂 "},
+   text: "C’est pas connaître B.! 😂😂😂 "},
   {
    me: false,
    text:  "Mais avec plaisir ;) "},
@@ -3672,19 +3655,6 @@ var blocks = [
   {
    me: false,
    text:  "Et si je peux être avec toi à 200% alors je signe tout de suite"},
-  {
-   me: true,
-   text: "J’ai mon scoot "},
-  {
-   me: true,
-   text:  "N’arrive "},
-  {
-   me: true,
-   text:  "J’arrive"
-  },
-  {
-   me: false,
-   text: "Cool"},
   ],
 
 
@@ -3763,17 +3733,17 @@ var blocks = [
    text:  "Mais dans un gros quart d’heure je mets mon tél en charge"},
   {
    me: true,
-   text: "👍 "},
+   text: "👍"},
   {
    me: true,
    text:  "👈👌?"
   },
   {
    me: false,
-   text: "😂🤷 "},
+   text: "😂🤷"},
   {
    me: false,
-   text: "🤪 "},
+   text: "🤪"},
   {
    me: false,
    text:  "💋🍆🌶🌶"},
@@ -3803,13 +3773,13 @@ var blocks = [
   },
   {
    me: false,
-   text: "😂 "},
+   text: "😂"},
   {
    me: false,
    text:  "It’s hard ... oh yeah!"},
   {
    me: true,
-   text: "🤚 "},
+   text: "🤚"},
   {
    me: true,
    text:  "🔥"
@@ -3830,13 +3800,13 @@ var blocks = [
   },
   {
    me: false,
-   text: "😶 "},
+   text: "😶"},
   {
    me: false,
-   text:  "🤟 "},
+   text:  "🤟"},
   {
    me: false,
-   text:  "🍆 "},
+   text:  "🍆"},
   {
    me: false,
    text:  "🎉"},
@@ -3852,10 +3822,10 @@ var blocks = [
   [
   {
    me: false,
-   text: "🙈 "},
+   text: "🙈"},
   {
    me: false,
-   text: "Allez "},
+   text: "Allez"},
   {
    me: false,
    text: "Je te fais confiance "},
@@ -3888,20 +3858,20 @@ var blocks = [
    text:  "#reference hehe"},
   {
    me: true,
-   text: "Like your "},
+   text: "Like your"},
   {
    me: true,
    text:  "Putain je sais plus écrire âme en anglais "},
   {
    me: true,
-   text:  "Soal "},
+   text:  "Soal"},
   {
    me: true,
    text:  "Sole"
   },
   {
    me: false,
-   text: "Soul "},
+   text: "Soul"},
   {
    me: false,
    text:  "😘"},
@@ -3910,7 +3880,7 @@ var blocks = [
    text: "Aaaaah "},
   {
    me: true,
-   text:  "😂 "},
+   text:  "😂"},
   {
    me: true,
    text:  "Nieh"
@@ -3920,7 +3890,7 @@ var blocks = [
    text: "It’s ok teach me Spanish"},
   {
    me: true,
-   text: "Me llamo D "},
+   text: "Me llamo D."},
   {
    me: true,
    text:  "Y me gusta la concha"
@@ -3973,7 +3943,7 @@ var blocks = [
   },
   {
    me: false,
-   text: "Ok ok "},
+   text: "Ok ok"},
   {
    me: false,
    text: "Ben simple tu me contactes si nécessaire 😘"},
@@ -3986,14 +3956,14 @@ var blocks = [
    text: "Oui parfait! 😘"},
   {
    me: true,
-   text: "Bonne nuit D "},
+   text: "Bonne nuit D."},
   {
    me: true,
    text:  "Tu me manques déjà"
   },
   {
    me: false,
-   text: "Han! "},
+   text: "Han!"},
   {
    me: false,
    text: "Moi aussi trésor! "},
@@ -4008,10 +3978,10 @@ var blocks = [
   [
   {
    me: true,
-   text: "Well "},
+   text: "Well"},
   {
    me: true,
-   text:  "Sweet dream "},
+   text:  "Sweet dream"},
   {
    me: true,
    text:  "Little boy"
@@ -4072,9 +4042,6 @@ var blocks = [
    me: false,
    text: "Han!!! "},
   {
-   me: false,
-   text: ""},
-  {
    me: true,
    text: "Donc bon"
   },
@@ -4105,7 +4072,7 @@ var blocks = [
    text: "Tu m’a dit demain ;) j’ai pas oublié "},
   {
    me: false,
-   text:  "Tu m’as^ "},
+   text:  "Tu m’as*"},
   {
    me: false,
    text:  "Comme tu veux "},
@@ -4146,7 +4113,7 @@ var blocks = [
    text: "🖤"},
   {
    me: true,
-   text: "Yes "},
+   text: "Yes"},
   {
    me: true,
    text:  "Kiss kiss"
@@ -4259,7 +4226,7 @@ var blocks = [
    text: "(Même si faudra que j’arrive à te battre) "},
   {
    me: false,
-   text:  "😂😂😂😂 "},
+   text:  "😂😂😂😂"},
   {
    me: false,
    text:  "C’est bon de rire à tes conneries! "},
@@ -4281,7 +4248,7 @@ var blocks = [
    text: "Ouh..."},
   {
    me: true,
-   text: "Yep "},
+   text: "Yep"},
   {
    me: true,
    text:  "J’étais pas mal en colère "},
@@ -4324,7 +4291,7 @@ var blocks = [
   },
   {
    me: false,
-   text: "Évidemment que j’avais envie d’être “moi-même” avec des 🖤 et des 🐷 et des “trésors” "},
+   text: "Évidemment que j’avais envie d’être moi-même avec des 🖤 et des 🐷 et des trésors"},
   {
    me: false,
    text:  "... pffff 😂😂😂😂"},
@@ -4334,7 +4301,7 @@ var blocks = [
   },
   {
    me: false,
-   text: "True "},
+   text: "True"},
   {
    me: false,
    text:  "No worries "},
@@ -4343,7 +4310,7 @@ var blocks = [
    text: "Everything is fine "},
   {
    me: false,
-   text: "And if you want to read a true D message : "},
+   text: "And if you want to read a true D. message : "},
   {
    me: false,
    text:  "I’m freaaaaaaking misss youuuu!"},
@@ -4425,14 +4392,14 @@ var blocks = [
    text:  "La paix "},
   {
    me: true,
-   text:  "😂 "},
+   text:  "😂"},
   {
    me: true,
    text:  "Wesh"
   },
   {
    me: false,
-   text: "Non non il regardait “il était une fois la vie” et “c’est pas sorcier” et “dr doogie”"},
+   text: "Non non il regardait 'il était une fois la vie' et 'c’est pas sorcier' et 'dr doogie' "},
   {
    me: true,
    text: "J’ai le droit à 15 min de récré"
@@ -4452,10 +4419,10 @@ var blocks = [
   },
   {
    me: false,
-   text:  "C’est quoi “faire” le mâle?"},
+   text:  "C’est quoi 'faire' le mâle?"},
   {
    me: true,
-   text: "Où ton dragueur"
+   text: "Ou ton dragueur"
   },
   {
    me: false,
@@ -4465,7 +4432,7 @@ var blocks = [
    text: "Oups "},
   {
    me: true,
-   text:  "Mayde mayde "},
+   text:  "Maybe baby"},
   {
    me: true,
    text:  "Annulation "},
@@ -4488,7 +4455,7 @@ var blocks = [
   },
   {
    me: false,
-   text: "😂😂😂😂 "},
+   text: "😂😂😂😂"},
   {
    me: false,
    text: "Ca y est on la perdue!"},
@@ -4500,11 +4467,7 @@ var blocks = [
    text:  "Bitch "},
   {
    me: true,
-   text:  "I’m will find you "},
-  {
-   me: true,
-   text:  "E t bon"
-  },
+   text:  "I will find you "},
   {
    me: false,
    text: "If you are CIA "},
@@ -4542,7 +4505,7 @@ var blocks = [
    text:  "Quand j’étais petit "},
   {
    me: false,
-   text: "Ma mère m’appelait Bébé Vanille! "},
+   text: "Ma mère m’appelait Bébé V.!"},
   {
    me: false,
    text: "Parce que j’étais blanc comme un cul! "},
@@ -4597,7 +4560,7 @@ var blocks = [
    text: "2 clowns! "},
   {
    me: false,
-   text:  "😂 "},
+   text:  "😂"},
   {
    me: false,
    text:  "J’arrive?"},
@@ -4606,7 +4569,7 @@ var blocks = [
    text: "Quand j’essaie de cacher "},
   {
    me: true,
-   text:  "? "},
+   text:  "?"},
   {
    me: true,
    text:  "Ouiiiii"
@@ -4619,7 +4582,7 @@ var blocks = [
    text:  "Et j’enlève ma ceinture 🎉"},
   {
    me: true,
-   text: "😂 "},
+   text: "😂"},
   {
    me: true,
    text:  "Tu peux venir en peignoir et le laisser sur le pas de ma porte"
@@ -4647,7 +4610,7 @@ var blocks = [
    text: "Je pense à toi 🙂"},
   {
    me: true,
-   text: "💙 "},
+   text: "💙"},
   {
    me: true,
    text:  "C’est la pause magic?"
@@ -4657,7 +4620,7 @@ var blocks = [
    text: "Grave!"},
   {
    me: true,
-   text: "Bien bossé ! "},
+   text: "Bien bossé !"},
   {
    me: true,
    text:  "?"
@@ -4772,7 +4735,7 @@ var blocks = [
    text: "Han!!!"},
   {
    me: true,
-   text: "Je toi "},
+   text: "Je toi"},
   {
    me: true,
    text:  "Ge nous "},
@@ -4822,7 +4785,7 @@ var blocks = [
   [
   {
    me: true,
-   text: "Ahhhhh "},
+   text: "Ahhhhh"},
   {
    me: true,
    text:  "Keep calm and Focus "},
@@ -4832,7 +4795,7 @@ var blocks = [
   },
   {
    me: false,
-   text: "🖤 "},
+   text: "🖤"},
   {
    me: false,
    text: "Pas encore couchée? 😘"},
@@ -4845,10 +4808,10 @@ var blocks = [
   },
   {
    me: false,
-   text: "Pareil "},
+   text: "Pareil"},
   {
    me: false,
-   text:  "WoW "},
+   text:  "WoW"},
   {
    me: false,
    text:  "T’as fait le switch hyper facilement! 🖤"},
@@ -4883,13 +4846,13 @@ var blocks = [
    text: "Hehe "},
   {
    me: false,
-   text:  "🖤 "},
+   text:  "🖤"},
   {
    me: false,
    text:  "J’adore!"},
   {
    me: true,
-   text: "😘 "},
+   text: "😘"},
   {
    me: true,
    text:  "Au moins t’as fait une belle nuit ?"
@@ -4926,10 +4889,10 @@ var blocks = [
    text: "Enfin arrive "},
   {
    me: false,
-   text: "35 min de retard 😫 "},
+   text: "35 min de retard 😫"},
   {
    me: false,
-   text: "J’ai des courbatures en bas du dos 😂😂😂😂 "},
+   text: "J’ai des courbatures en bas du dos 😂😂😂😂"},
   {
    me: false,
    text: "J’adore 😘🙈"},
@@ -5078,7 +5041,7 @@ var blocks = [
    text:  "🖤"},
   {
    me: true,
-   text: "🍆 "},
+   text: "🍆"},
   {
    me: true,
    text:  "🌡"
@@ -5104,7 +5067,7 @@ var blocks = [
    text: "I was in class ;) "},
   {
    me: false,
-   text: "Ca va?😘 "},
+   text: "Ca va?😘"},
   {
    me: false,
    text:  "Je te vois!!! "},
@@ -5113,19 +5076,19 @@ var blocks = [
    text: "Tu es en train de rire à mes conneries! "},
   {
    me: false,
-   text: "Tes yeux se plissent et tu me fixes avec se regard, sure de toi. K, tu me fais sourire, même seul dans le métro. "},
+   text: "Tes yeux se plissent et tu me fixes avec se regard, sure de toi. K., tu me fais sourire, même seul dans le métro. "},
   {
    me: false,
    text: "😘"},
   {
    me: true,
-   text: "🙃 "},
+   text: "🙃"},
   {
    me: true,
    text:  "Hello la biche "},
   {
    me: true,
-   text:  "Ca va et toi ? "},
+   text:  "Ca va et toi ?"},
   {
    me: true,
    text:  "J’ai pris la caisse "},
@@ -5150,7 +5113,7 @@ var blocks = [
   [
   {
    me: true,
-   text: "Je suis debout depuis 5 h "},
+   text: "Je suis debout depuis 5 h"},
   {
    me: true,
    text:  "Si tu veux on s’appelle quand je suis rentrée"
@@ -5191,13 +5154,13 @@ var blocks = [
    text: "Tu dois être au tel "},
   {
    me: false,
-   text: "Appel quand tu veux 😘 "},
+   text: "Appel quand tu veux 😘"},
   {
    me: false,
-   text: "J’espère te voir demain 🖤 "},
+   text: "J’espère te voir demain 🖤"},
   {
    me: false,
-   text: "Ça serait cool 😘 "},
+   text: "Ça serait cool 😘"},
   {
    me: false,
    text: "Je ne vais pas tarder non plus je pense, lessivé de cette journée intense. "},
@@ -5281,16 +5244,16 @@ var blocks = [
    text:  "Programme de ouf de mes vacances "},
   {
    me: true,
-   text:  "Lire "},
+   text:  "Lire"},
   {
    me: true,
-   text:  "Masturber "},
+   text:  "Masturber"},
   {
    me: true,
-   text:  "Dormir "},
+   text:  "Dormir"},
   {
    me: true,
-   text:  "Oh mon dieu "},
+   text:  "Oh mon dieu"},
   {
    me: true,
    text:  "Nah mais il faut que je retourne au boulot 😂"
@@ -5313,10 +5276,10 @@ var blocks = [
   },
   {
    me: false,
-   text: "🐷🤗 "},
+   text: "🐷🤗"},
   {
    me: false,
-   text:  "Il est à toi! "},
+   text:  "Il est à toi!"},
   {
    me: false,
    text: "Pour toi "},
@@ -5431,7 +5394,7 @@ var blocks = [
   },
   {
    me: false,
-   text: "Ça va? "},
+   text: "Ça va?"},
   {
    me: false,
    text:  "Mais oui oui ok je termine la "},
@@ -5494,7 +5457,7 @@ var blocks = [
   [
    {
    me: false,
-   text: "🤓 "},
+   text: "🤓"},
   {
    me: false,
    text: "J’apprendrai tout tes plats!"},
@@ -5554,14 +5517,14 @@ var blocks = [
    text:  "Smell délicieux "},
   {
    me: true,
-   text:  "😂💙 "},
+   text:  "😂💙"},
   {
    me: true,
    text:  "Really !"
   },
   {
    me: false,
-   text: "😂😂😂😂😂 "},
+   text: "😂😂😂😂😂"},
   {
    me: false,
    text:  "Vegan lesbian fart "},
@@ -5595,7 +5558,7 @@ var blocks = [
    text:  "😂"},
   {
    me: true,
-   text: "😛😂💙 "},
+   text: "😛😂💙"},
   {
    me: true,
    text:  "Donc la com’ "},
@@ -5648,7 +5611,7 @@ var blocks = [
    text:  "Okay?"},
   {
    me: true,
-   text: "🥺 "},
+   text: "🥺"},
   {
    me: true,
    text:  "😭"
@@ -5690,13 +5653,13 @@ var blocks = [
    text:  "Je suis presque dans les clous la "},
   {
    me: false,
-   text:  ";) "},
+   text:  ";)"},
   {
    me: false,
    text:  "Et en vrai ça va!"},
   {
    me: true,
-   text: "🥺 "},
+   text: "🥺"},
   {
    me: true,
    text:  "Bon bah "},
@@ -5809,7 +5772,7 @@ var blocks = [
    text: "T’es mal élevée on avait dit! 😛"},
   {
    me: true,
-   text: "J’essaye 🍓 "},
+   text: "J’essaye 🍓"},
   {
    me: true,
    text:  "Mais je suis aussi cette petite fille qui lit des bouquins devant la classe 🥺"
@@ -5829,10 +5792,10 @@ var blocks = [
   [
   {
    me: true,
-   text: "J’ai fini "},
+   text: "J’ai fini"},
   {
    me: true,
-   text:  "Je passe voir J "},
+   text:  "Je passe voir J. "},
   {
    me: true,
    text:  "Et plus tard dans la soirée j’irais en banlieue "},
@@ -5902,7 +5865,7 @@ var blocks = [
   },
   {
    me: false,
-   text: "Je termine avec S et je suis à toi. "},
+   text: "Je termine avec S. et je suis à toi. "},
   {
    me: false,
    text: "A tout de suite "},
@@ -5937,7 +5900,7 @@ var blocks = [
   [
   {
    me: true,
-   text: "💙🖤 "},
+   text: "💙🖤"},
   {
    me: true,
    text:  "Je rentre beauté"
@@ -5991,19 +5954,19 @@ var blocks = [
    text: "Je suis à de doigt de te demander de rester "},
   {
    me: false,
-   text:  "Et je reviens 😬 "},
+   text:  "Et je reviens 😬"},
   {
    me: false,
    text:  "😂😂😂😂"},
   {
    me: true,
-   text: "💙😂 "},
+   text: "💙😂"},
   {
    me: true,
-   text:  "Ohhhhh "},
+   text:  "Ohhhhh"},
   {
    me: true,
-   text:  "Sexy "},
+   text:  "Sexy"},
   {
    me: true,
    text:  "Love"
@@ -6017,7 +5980,7 @@ var blocks = [
   },
   {
    me: false,
-   text: "Va! "},
+   text: "Va!"},
   {
    me: false,
    text: "On se voit demain"},
@@ -6179,7 +6142,7 @@ var blocks = [
    text: "Je comprends pas de problèmes "},
   {
    me: false,
-   text: "🙂 "},
+   text: "🙂"},
   {
    me: false,
    text:  "Tu préfères rester chez toi ce soir? "},
@@ -6219,7 +6182,7 @@ var blocks = [
    text: "Je comprends tout à fait 😘"},
   {
    me: true,
-   text: "😉😘💙 "},
+   text: "😉😘💙"},
   {
    me: true,
    text:  "I know "},
@@ -6303,7 +6266,7 @@ var blocks = [
   },
   {
    me: false,
-   text: "Mmh "},
+   text: "Mmh"},
   {
    me: false,
    text: "Bah d’accord "},
@@ -6318,7 +6281,7 @@ var blocks = [
    text:  "Merci beybey"},
   {
    me: true,
-   text: "💙 "},
+   text: "💙"},
   {
    me: true,
    text:  "Bon par contre je viens pas te chercher à l’école "},
@@ -6340,13 +6303,13 @@ var blocks = [
   },
   {
    me: false,
-   text: "Ok ok 💙🖤 "},
+   text: "Ok ok 💙🖤"},
   {
    me: false,
    text:  "Je pars bientôt chez moi. "},
   {
    me: false,
-   text: "Tu me laisses 30min que je range etc 😅 "},
+   text: "Tu me laisses 30min que je range etc 😅"},
   {
    me: false,
    text: "C’est le salon quand même "},
@@ -6371,10 +6334,10 @@ var blocks = [
   },
   {
    me: false,
-   text: "Hahahaha "},
+   text: "Hahahaha"},
   {
    me: false,
-   text: "Parfait "},
+   text: "Parfait"},
   {
    me: false,
    text:  "Si tu as des légumes en plus je suis preneur"},
@@ -6412,13 +6375,13 @@ var blocks = [
    text: "Pas de soucis. "},
   {
    me: false,
-   text: "J’espère que ça va mieux. "},
+   text: "J’espère que ça va mieux."},
   {
    me: false,
-   text: "Oui ça va. "},
+   text: "Oui ça va."},
   {
    me: false,
-   text: "J’étais un peu inquiet de ton message plus tôt. "},
+   text: "J’étais un peu inquiet de ton message plus tôt."},
   {
    me: false,
    text: "Je ne boude pas. "},
@@ -6471,7 +6434,7 @@ var blocks = [
   [
   {
    me: true,
-   text: "Demain soir 18h à la NR "},
+   text: "Demain soir 18h à la N.R. "},
   {
    me: true,
    text:  "Vernissage"
@@ -6493,7 +6456,7 @@ var blocks = [
    text: "Yes "},
   {
    me: true,
-   text:  "Et caler B en fonction"
+   text:  "Et caler B. en fonction"
   },
   {
    me: false,
@@ -6554,7 +6517,7 @@ var blocks = [
   },
   {
    me: false,
-   text: "Ben on a été toute la journée “ensemble” 💙🖤 "},
+   text: "Ben on a été toute la journée ensemble 💙🖤 "},
   {
    me: false,
    text:  "☺️"},
@@ -6570,7 +6533,7 @@ var blocks = [
    text: "Wow Mais t’es une machine"},
   {
    me: true,
-   text: "😂 "},
+   text: "😂"},
   {
    me: true,
    text:  "Tu t’es vu ?"
@@ -6583,7 +6546,7 @@ var blocks = [
    text:  "On va si bien ensemble 🤗"},
   {
    me: true,
-   text: "😛 "},
+   text: "😛"},
   {
    me: true,
    text:  "J’organise un peu "},
@@ -6599,7 +6562,7 @@ var blocks = [
    text: "Carrément Bella! "},
   {
    me: false,
-   text:  "J’ai vu "},
+   text:  "J’ai vu"},
   {
    me: false,
    text: "J’ai ri"},
@@ -6618,14 +6581,14 @@ var blocks = [
    text: "Je rentre sec!"},
   {
    me: true,
-   text: "Ça roule 🙃 "},
+   text: "Ça roule 🙃"},
   {
    me: true,
    text:  "À tutti"
   },
   {
    me: false,
-   text: "À tutti 😘 "},
+   text: "À tutti 😘"},
   {
    me: false,
    text:  "J’ai ri encore "},
@@ -6641,7 +6604,7 @@ var blocks = [
    text:  "Je suis à 5 min"},
   {
    me: true,
-   text: "👌 "},
+   text: "👌"},
   {
    me: true,
    text:  "T’as faim ? "},
@@ -6651,7 +6614,7 @@ var blocks = [
   },
   {
    me: false,
-   text: "Cool 😍 "},
+   text: "Cool 😍"},
   {
    me: false,
    text:  "Je rentre "},
@@ -6679,7 +6642,7 @@ var blocks = [
    text: "Ok à tutti "},
   {
    me: true,
-   text:  "😂 "},
+   text:  "😂"},
   {
    me: true,
    text:  "OMG"
@@ -6706,7 +6669,7 @@ var blocks = [
    text: "Ahahahaha"},
   {
    me: true,
-   text: "😛 "},
+   text: "😛"},
   {
    me: true,
    text:  "T’as du parmesan encore ? "},
@@ -6725,7 +6688,7 @@ var blocks = [
    text:  "Tu es prête? "},
   {
    me: false,
-   text: "Je viens vers la NR 😘"},
+   text: "Je viens vers la N.. 😘"},
   ],
 
   [
@@ -6774,14 +6737,14 @@ var blocks = [
    text: "Sexuellement j’espère?! 🤓"},
   {
    me: true,
-   text: "Il arrive quand B ?"
+   text: "Il arrive quand B. ?"
   },
   {
    me: false,
    text: "20h"},
   {
    me: true,
-   text: "Ok "},
+   text: "Ok"},
   {
    me: true,
    text:  "Bah viens "},
@@ -6801,7 +6764,7 @@ var blocks = [
    text: "Number 2 j’et jarrive 😂"},
   {
    me: true,
-   text: "😛 "},
+   text: "😛"},
   {
    me: true,
    text:  "J’arrive"
@@ -6818,13 +6781,13 @@ var blocks = [
   [
   {
    me: false,
-   text: "🖤💙 "},
+   text: "🖤💙"},
   {
    me: false,
    text:  "Comment tu vas? "},
   {
    me: false,
-   text: "Ici ça joue encore, .. un peu 😅 "},
+   text: "Ici ça joue encore, .. un peu 😅"},
   {
    me: false,
    text: "Mais je vais les foutre dehors, j’ai envie de te voir."},
@@ -6837,7 +6800,7 @@ var blocks = [
    text: "Ca marche "},
   {
    me: false,
-   text: "Je te dis quand on termine 😘 "},
+   text: "Je te dis quand on termine 😘"},
   {
    me: false,
    text:  "J’arrive 🤗"},
@@ -6875,7 +6838,7 @@ var blocks = [
    text: "C’est moi "},
   {
    me: false,
-   text: "Deso "},
+   text: "Deso"},
   {
    me: false,
    text: "Tu es où? 😅"},
@@ -6911,7 +6874,7 @@ var blocks = [
    text: "Je suis juste dehors "},
   {
    me: false,
-   text:  "😘 "},
+   text:  "😘"},
   {
    me: false,
    text:  "Take your time 🙂 "},
@@ -6951,7 +6914,7 @@ var blocks = [
   },
   {
    me: false,
-   text: "😬 "},
+   text: "😬"},
   {
    me: false,
    text:  "Ben je serai là 😂"},
@@ -6971,17 +6934,17 @@ var blocks = [
   },
   {
    me: false,
-   text: "😘 "},
+   text: "😘"},
   {
    me: false,
    text:  "🖤🤓😬"},
   
   {
    me: true,
-   text: "🖤 "},
+   text: "🖤"},
   {
    me: true,
-   text:  "Yes "},
+   text:  "Yes"},
   {
    me: true,
    text:  "Au boulot !"
@@ -6998,7 +6961,7 @@ var blocks = [
   [
   {
    me: false,
-   text: "Il est super cool A! "},
+   text: "Il est super cool A.! "},
   {
    me: false,
    text: "On a bien discuté, "},
@@ -7013,7 +6976,7 @@ var blocks = [
    text: "T’as assuré 😘"},
   {
    me: true,
-   text: "Top ! "},
+   text: "Top !"},
   {
    me: true,
    text:  "I got your back 💙"
@@ -7046,7 +7009,7 @@ var blocks = [
    text: "😂😂😂je suis en train de saouler les copains avec ta chanson « i don’t like it ... I’m loving loving ... »"},
   {
    me: true,
-   text: "😂 "},
+   text: "😂"},
   {
    me: true,
    text:  "💙"
@@ -7056,7 +7019,7 @@ var blocks = [
   [
   {
    me: false,
-   text: "Parfait "},
+   text: "Parfait"},
   {
    me: false,
    text: "Éclate toi à l’aquarelle "},
@@ -7065,7 +7028,7 @@ var blocks = [
    text:  "Encore une game d’une heure environ"},
   {
    me: true,
-   text: "👌🙃💙 "},
+   text: "👌🙃💙"},
   {
    me: true,
    text:  "Je finis de faire mon sac "},
@@ -7101,7 +7064,7 @@ var blocks = [
   },
   {
    me: false,
-   text: "J’ai de quoi cuisiner mais j’ai la flemme 😂 "},
+   text: "J’ai de quoi cuisiner mais j’ai la flemme 😂"},
   {
    me: false,
    text: "Je peux cuisiner demain "},
@@ -7119,7 +7082,7 @@ var blocks = [
    text: "Cool!"},
   {
    me: true,
-   text: "Ok mais dans ce cas on se retrouve dans la chambre 😂 "},
+   text: "Ok mais dans ce cas on se retrouve dans la chambre 😂"},
   {
    me: true,
    text:  "Je pue"
@@ -7166,7 +7129,7 @@ var blocks = [
    text: "Comme un jour de rentrée quoi 😶"},
   {
    me: true,
-   text: "J’ai rêvé que je jouais dans du théâtre "},
+   text: "J’ai rêvé que je jouais dans du théâtre"},
   {
    me: true,
    text:  "Et qu’on me soûlait avec le calendrier des dates "},
@@ -7183,7 +7146,7 @@ var blocks = [
   },
   {
    me: false,
-   text: "Atta "},
+   text: "Atta"},
   {
    me: false,
    text: "Je fais l’appel "},
@@ -7224,26 +7187,26 @@ var blocks = [
    text: "Ah ouai carrément! "},
   {
    me: false,
-   text: "Nous on fait des storyboard de story Instagram pour un concours "},
+   text: "Nous on fait des storyboard de story Instagram pour un concours"},
   {
    me: false,
-   text: "Easy peazzy! 🤗 "},
+   text: "Easy peazzy! 🤗"},
   {
    me: false,
-   text:  "Je me suis pris la tête avec L sinon ... mais rien de nouveau sous le soleil"},
+   text:  "Je me suis pris la tête avec L. sinon ... mais rien de nouveau sous le soleil"},
   {
    me: true,
-   text: "? "},
+   text: "?"},
   {
    me: true,
    text:  "Bah le mec me dit hier soir qu’il a rien préparé pour auj"
   },
   {
    me: false,
-   text: "Grossi modo un message très passive agressif du genre "},
+   text: "Grossi modo un message très passive agressif du genre"},
   {
    me: false,
-   text: "“Ben tu préviens quand tu veux revoir tes amis!” "},
+   text: " 'Ben tu préviens quand tu veux revoir tes amis!' "},
   {
    me: false,
    text:  "Tres pro! "},
@@ -7268,7 +7231,7 @@ var blocks = [
    text: "Les parties d’échecs .... nos matins vacanciers mes manquent 😂"},
   {
    me: true,
-   text: "💙 "},
+   text: "💙"},
   {
    me: true,
    text:  "On se fait un réveil doux très vite !"
@@ -7281,7 +7244,7 @@ var blocks = [
    text: "Ok vendredi 🙃 "},
   {
    me: true,
-   text:  "Mais tu lui as répondu à L ?"
+   text:  "Mais tu lui as répondu à L. ?"
   },
   {
    me: false,
@@ -7326,7 +7289,7 @@ var blocks = [
   },
   {
    me: false,
-   text: "🤗 "},
+   text: "🤗"},
   {
    me: false,
    text:  "Ayé! "},
@@ -7342,7 +7305,7 @@ var blocks = [
   },
   {
    me: false,
-   text: "😂😂😂 "},
+   text: "😂😂😂"},
   {
    me: false,
    text:  "« On steak haché » "},
@@ -7357,7 +7320,7 @@ var blocks = [
    text:  "1, 2, 3, 4, ... (va te cacher) 5, 6 .. "},
   {
    me: false,
-   text:  "😂 "},
+   text:  "😂"},
   {
    me: false,
    text:  "23, 24, 25 ... (je suis bastille, t’es bien cachée?!) 30, 31 ..."},
@@ -7373,7 +7336,7 @@ var blocks = [
   },
   {
    me: false,
-   text: "😂😂😂 "},
+   text: "😂😂😂"},
   {
    me: false,
    text:  "Je ne dors pas encore ... "},
@@ -7388,26 +7351,26 @@ var blocks = [
    text: "Je pense à toi jolie cœur 💙 "},
   {
    me: false,
-   text: "🖤 "},
+   text: "🖤"},
   {
    me: false,
-   text:  "Zzz 😴 "},
+   text:  "Zzz 😴"},
   {
    me: false,
-   text: "💤 "},
+   text: "💤"},
   {
    me: false,
-   text: "😴 "},
+   text: "😴"},
   {
    me: false,
-   text: "💤 "},
+   text: "💤"},
   {
    me: true,
    text: "Salut beauté"
   },
   {
    me: false,
-   text: "😂😂😂😂 "},
+   text: "😂😂😂😂"},
   {
    me: false,
    text: "Bravo! "},
@@ -7433,7 +7396,7 @@ var blocks = [
    text: "Avant 14h?"},
   {
    me: true,
-   text: "Ok 👌 "},
+   text: "Ok 👌"},
   {
    me: true,
    text:  "💙🖤"
@@ -7517,7 +7480,7 @@ var blocks = [
    text:  "Comme promis! "},
   {
    me: false,
-   text: "Au lit 💤 "},
+   text: "Au lit 💤"},
   {
    me: false,
    text: "Travaille bien bébé! 😘💙🖤"},
@@ -7531,9 +7494,6 @@ var blocks = [
   {
    me: false,
    text: "Donc cours jusqu’à 19h15 "},
-  {
-   me: false,
-   text: "*$$ "},
   {
    me: false,
    text:  "Mais après je vais avoir BESOIN de tes bras "},
@@ -7551,7 +7511,7 @@ var blocks = [
    text: "Je te dis ou j’en suis à 19h "},
   {
    me: true,
-   text:  "C’est ED ?"
+   text:  "C’est E.D.?"
   },
   {
    me: false,
@@ -7561,7 +7521,7 @@ var blocks = [
    text:  "Yep! "},
   {
    me: false,
-   text:  "Rue D "},
+   text:  "Rue D."},
   {
    me: false,
    text:  "A pied c’est 15min de chez toi à peu près"},
@@ -7588,10 +7548,10 @@ var blocks = [
    text: "T’es parfaite "},
   {
    me: false,
-   text:  "Bon le projet A tombe à l’eau "},
+   text:  "Bon le projet A. tombe à l’eau "},
   {
    me: false,
-   text:  "🤷 "},
+   text:  "🤷"},
   {
    me: false,
    text:  "Maybe better to focus on the residency"},
@@ -7617,7 +7577,7 @@ var blocks = [
   },
   {
    me: false,
-   text: "WoW "},
+   text: "WoW"},
   {
    me: false,
    text: "Trop cool!"},
@@ -7626,7 +7586,7 @@ var blocks = [
   [
   {
    me: false,
-   text: "😘😘😘😘 "},
+   text: "😘😘😘😘"},
   {
    me: false,
    text:  "Tu repasses par chez toi?"},
@@ -7694,20 +7654,20 @@ var blocks = [
    text: "😘"},
   {
    me: true,
-   text: "🍑 "},
+   text: "🍑"},
   {
    me: true,
-   text:  "😛 "},
+   text:  "😛"},
   {
    me: true,
    text:  "🔥"
   },
   {
    me: false,
-   text: "😂 "},
+   text: "😂"},
   {
    me: false,
-   text:  "🖤🐷🐷💙 "},
+   text:  "🖤🐷🐷💙"},
   {
    me: false,
    text:  "Impression terminée ;)"},
@@ -7720,7 +7680,7 @@ var blocks = [
   },
   {
    me: false,
-   text: "Je sors des BA la 😘"},
+   text: "Je sors des B.. la 😘"},
   {
    me: true,
    text: "Ok "},
@@ -7770,7 +7730,7 @@ var blocks = [
   },
   {
    me: false,
-   text: "2-2 "},
+   text: "2-2"},
   {
    me: false,
    text: "Mais j’ai changé des trucs "},
@@ -7831,7 +7791,7 @@ var blocks = [
   },
   {
    me: false,
-   text: "Ah "},
+   text: "Ah"},
   {
    me: false,
    text:  "Comment tu vas maintenant?"},
@@ -7900,7 +7860,7 @@ var blocks = [
   },
   {
    me: false,
-   text: "😔 "},
+   text: "😔"},
   {
    me: false,
    text:  "Je ne sais plus quoi faire ... "},
@@ -7915,7 +7875,7 @@ var blocks = [
    text:  "Comment tu vas?"},
   {
    me: true,
-   text: "Mytho "},
+   text: "Mytho"},
   {
    me: true,
    text:  "T’es nul "},
@@ -7960,7 +7920,7 @@ var blocks = [
    text:  "À plus tard"},
   {
    me: true,
-   text: "🍌 "},
+   text: "🍌"},
   {
    me: true,
    text:  "En mâchant trop de bubble tea "},
@@ -8014,7 +7974,7 @@ var blocks = [
    text:  "💙🖤"},
   {
    me: true,
-   text: "💩 "},
+   text: "💩"},
   {
    me: true,
    text:  "Ok ok "},
@@ -8030,7 +7990,7 @@ var blocks = [
   [
   {
    me: false,
-   text: "😂 "},
+   text: "😂"},
   {
    me: false,
    text:  "J’ai terminé. "},
@@ -8079,7 +8039,7 @@ var blocks = [
    text:  "Et bim traitement par le silence "},
   {
    me: true,
-   text:  "Merci D !"
+   text:  "Merci D. !"
   },
   {
    me: false,
@@ -8096,7 +8056,7 @@ var blocks = [
   },
   {
    me: false,
-   text: "Oh 😍 "},
+   text: "Oh 😍"},
   {
    me: false,
    text: "En bien?!"},
@@ -8144,7 +8104,7 @@ var blocks = [
    text: "Debouuuuuuut "},
   {
    me: true,
-   text:  "💙🖤 "},
+   text:  "💙🖤"},
   {
    me: true,
    text:  "Les oiseaux chantent "},
@@ -8180,7 +8140,7 @@ var blocks = [
   },
   {
    me: false,
-   text: "😂😂😂😂 "},
+   text: "😂😂😂😂"},
   {
    me: false,
    text: "Traite moi de petit! 😂 "},
@@ -8253,7 +8213,7 @@ var blocks = [
    text: "Cette fois-ci la vrai recette"},
   {
    me: true,
-   text: "Deaaaal "},
+   text: "Deaaaal"},
   {
    me: true,
    text:  "You are so sexy"
@@ -8352,10 +8312,10 @@ var blocks = [
   },
   {
    me: false,
-   text: "Donc un mail de rappel déjà, aujourd’hui ou demain serait pas « impoli » et d’appeler R demain au plus tard serait justifié"},
+   text: "Donc un mail de rappel déjà, aujourd’hui ou demain serait pas « impoli » et d’appeler R. demain au plus tard serait justifié"},
   {
    me: true,
-   text: "Bah la carte des visites de P je suis pas sure qu’il faille l’utiliser "},
+   text: "Bah la carte des visites de P. je suis pas sure qu’il faille l’utiliser "},
   {
    me: true,
    text:  "Pour ça"
@@ -8397,7 +8357,7 @@ var blocks = [
    text: "Donc ouai évite de passer pour le relou qui menace sur quelque chose qu’il offre "},
   {
    me: true,
-   text:  "Les visites de P "},
+   text:  "Les visites de P."},
   {
    me: true,
    text:  "C’est de l’altruisme"
@@ -8449,7 +8409,7 @@ var blocks = [
    text:  "And you are so lucky "},
   {
    me: true,
-   text:  "😝 "},
+   text:  "😝"},
   {
    me: true,
    text:  "Mais bon je vais pas me plaindre "},
@@ -8475,7 +8435,7 @@ var blocks = [
   },
   {
    me: false,
-   text: "😂😂😂 "},
+   text: "😂😂😂"},
   {
    me: false,
    text:  "Number 2"},
@@ -8490,7 +8450,7 @@ var blocks = [
    text:  "La photo du caca "},
   {
    me: true,
-   text:  "😂 "},
+   text:  "😂"},
   {
    me: true,
    text:  "CAN i unsee that ?!"
@@ -8500,16 +8460,16 @@ var blocks = [
   [
   {
    me: false,
-   text: "💙🖤🤸 "},
+   text: "💙🖤🤸"},
   {
    me: false,
    text:  "😘"},
   {
    me: true,
-   text: "🖤 "},
+   text: "🖤"},
   {
    me: true,
-   text:  "😂 "},
+   text:  "😂"},
   {
    me: true,
    text:  "Ça y est tu fais l’acrobate ? "},
@@ -8531,7 +8491,7 @@ var blocks = [
    text: "L’acrobate de mon cœur"},
   {
    me: true,
-   text: "Ohhhhhhh "},
+   text: "Ohhhhhhh"},
   {
    me: true,
    text:  "Mais t’es trop mignon wesh"
@@ -8547,13 +8507,13 @@ var blocks = [
    text: "Ps: tout le monde dit que j’ai des petits yeux alors j’ai cafté et j’ai dit que c’était de ta faute nah! "},
   {
    me: false,
-   text: "😂😂😂 "},
+   text: "😂😂😂"},
   {
    me: false,
    text: "Ils sont morts de rire et t’adore déjà!"},
   {
    me: true,
-   text: "😂 "},
+   text: "😂"},
   {
    me: true,
    text:  "Et voilà "},
@@ -8578,7 +8538,7 @@ var blocks = [
   [
    {
    me: true,
-   text: "🍌 "},
+   text: "🍌"},
   {
    me: true,
    text:  "Alors j’hésite à t’envoyer mon écrit de ce matin"
@@ -8668,7 +8628,7 @@ var blocks = [
    text: "Hey "},
   {
    me: false,
-   text: "On dîne avec B. "},
+   text: "On dîne avec B."},
   {
    me: false,
    text: "Tu en es où toi?"},
@@ -8738,7 +8698,7 @@ var blocks = [
    text: "Han... "},
   {
    me: false,
-   text: "Ok "},
+   text: "Ok"},
   {
    me: false,
    text: "Si tu préfères 😘 "},
@@ -8763,13 +8723,13 @@ var blocks = [
   },
   {
    me: false,
-   text: "Ok ok 😬😘 "},
+   text: "Ok ok 😬😘"},
   {
    me: false,
    text: "Je t’écrirai mi amor "},
   {
    me: false,
-   text: "Prend soin de toi et fume à ta fenêtre. C’est pas trop safe la rue M 😘"},
+   text: "Prend soin de toi et fume à ta fenêtre. C’est pas trop safe la rue M. 😘"},
   {
    me: true,
    text: "Bah t’inquiète pas "},
@@ -8806,10 +8766,10 @@ var blocks = [
   [
   {
    me: false,
-   text: "😘😘😘😘 "},
+   text: "😘😘😘😘"},
   {
    me: false,
-   text:  "💙🥔 "},
+   text:  "💙🥔"},
   {
    me: false,
    text:  "Coucou bébé ça va?! "},
@@ -8830,7 +8790,7 @@ var blocks = [
    text:  "Bébé??? "},
   {
    me: true,
-   text:  "😱😂 "},
+   text:  "😱😂"},
   {
    me: true,
    text:  "Ok cool "},
@@ -8868,7 +8828,7 @@ var blocks = [
    text:  "Tu me ramèneras des slips propres 😂"},
   {
    me: true,
-   text: "Omg 😆 "},
+   text: "Omg 😆"},
   {
    me: true,
    text:  "Je pars"
@@ -8900,7 +8860,7 @@ var blocks = [
    text: "Du rire en vidéo "},
   {
    me: false,
-   text: "Et du Magic Skype avec B "},
+   text: "Et du Magic Skype avec B."},
   {
    me: false,
    text: "La je bosse encore "},
@@ -8931,7 +8891,7 @@ var blocks = [
    text: "Tu fais jamais le premier pas "},
   {
    me: true,
-   text:  "Et tout ce qu’on s’est dit tu le fait jamais"
+   text:  "Et tout ce qu’on s’est dit tu le fais jamais"
   },
   {
    me: false,
@@ -8947,7 +8907,7 @@ var blocks = [
    text: "Bonne soirée"},
   {
    me: true,
-   text: "Lol "},
+   text: "Lol"},
   {
    me: true,
    text:  "Facile de partir de la conversation 👌"
@@ -8991,7 +8951,7 @@ var blocks = [
    text: "Caprice!? "},
   {
    me: false,
-   text: "Je sais plus K! Je sais jamais en faites"},
+   text: "Je sais plus K.! Je sais jamais en fait"},
   {
    me: true,
    text: "Ok"
@@ -9074,12 +9034,8 @@ var blocks = [
    me: true,
    text:  "Working boy "},
   {
-   me: true,
-   text:  ""
-  },
-  {
    me: false,
-   text: "Tu veux bien chez moi pour un café? Je ne sortirai pas aujourd’hui.Je suis navré 😔. Je finis ce paragraphe et je dois gérer ma présentation au C demain. (Dessins / vidéo, j’espère) en ligne"},
+   text: "Tu veux bien chez moi pour un café? Je ne sortirai pas aujourd’hui.Je suis navré 😔. Je finis ce paragraphe et je dois gérer ma présentation au C. demain. (Dessins / vidéo, j’espère) en ligne"},
   {
    me: true,
    text: "Ok "},
@@ -9111,7 +9067,7 @@ var blocks = [
    text: "Mais ça sera rapide (un café et je retourne bosser 🙃)"},
   {
    me: true,
-   text: "😛 "},
+   text: "😛"},
   {
    me: true,
    text:  "Putain t’es incompréhensible gros 😂"
@@ -9141,7 +9097,7 @@ var blocks = [
    text: "Cool!"},
   {
    me: true,
-   text: "😂 "},
+   text: "😂"},
   {
    me: true,
    text:  "💙"
@@ -9155,7 +9111,7 @@ var blocks = [
   [
   {
    me: true,
-   text: "🥑 🥓 "},
+   text: "🥑🥓"},
   {
    me: true,
    text:  "Putain j’avais envie de burger hier "},
@@ -9194,7 +9150,7 @@ var blocks = [
   },
   {
    me: false,
-   text: "Hahahaha "},
+   text: "Hahahaha"},
   {
    me: false,
    text:  "Moi c’est l’inverse "},
@@ -9210,16 +9166,16 @@ var blocks = [
   },
   {
    me: false,
-   text: "Yep! "},
+   text: "Yep!"},
   {
    me: false,
-   text:  "Atta "},
+   text:  "Atta"},
   {
    me: false,
    text:  "De chez moi tu pouvais voir ça!"},
   {
    me: true,
-   text: "Wowwwwwwww "},
+   text: "Wowwwwwwww"},
   {
    me: true,
    text:  "Hot"
@@ -9241,14 +9197,14 @@ var blocks = [
    text:  "Tu Ramènes le café?"},
   {
    me: true,
-   text: "💙🥔🍑 "},
+   text: "💙🥔🍑"},
   {
    me: true,
    text:  "Nope"
   },
   {
    me: false,
-   text: "😂 "},
+   text: "😂"},
   {
    me: false,
    text:  "J’ai terminé "},
@@ -9440,7 +9396,7 @@ var blocks = [
   },
   {
    me: false,
-   text: "Hey "},
+   text: "Hey"},
   {
    me: false,
    text: "Je pensais à toi "},
@@ -9492,7 +9448,7 @@ var blocks = [
   [
   {
    me: false,
-   text: "Hello Tu vas bien? Tu as les liens des illustrations que J aime bien. Si ce week-end tu veux récupérer l’iPad, on peut trade avec ton mac si j’ai pas encore le miens. Je n’ai pas du tout donner de nouvelles... Je suis dans le jus, fatigué, agacé par la réactions de certains de mais étudiants, l’A me gonfle, j’ai l’estomac en vrac, je me suis rasé de trop prêt! Bref j’ai une pêche d’enfer. Mais ça n’excuse pas tout. Je suis désolé. (Retour de ligne / retour de ligne). J’espère que tu arrive mieux à gérer ton temps que moi. Je pense à toi D"
+   text: "Hello Tu vas bien? Tu as les liens des illustrations que J aime bien. Si ce week-end tu veux récupérer l’iPad, on peut trade avec ton mac si j’ai pas encore le miens. Je n’ai pas du tout donner de nouvelles... Je suis dans le jus, fatigué, agacé par la réactions de certains de mais étudiants, l’A. me gonfle, j’ai l’estomac en vrac, je me suis rasé de trop prêt! Bref j’ai une pêche d’enfer. Mais ça n’excuse pas tout. Je suis désolé. (Retour de ligne / retour de ligne). J’espère que tu arrive mieux à gérer ton temps que moi. Je pense à toi D."
   },
   {
    me: true,
@@ -9502,14 +9458,14 @@ var blocks = [
    text: "Merci pour le message "},
   {
    me: true,
-   text: "J veut que je change les couleurs comme les exemples ou que je fasse une nouvelle illustration ? "},
+   text: "J. veut que je change les couleurs comme les exemples ou que je fasse une nouvelle illustration ? "},
   {
    me: true,
    text: "Bonne nuit"
   },
   {
    me: false,
-   text: "Hey, Tu es sans doute couchée. Voilà la réponse de J « Je sais pas trop, j'aime bien le côté où il y a du végétal, peut-être en mettre au premier plan par exemple ou ou voit un appartement cosi avec un côté chill et par la fenêtre la montagne et la nature 😇 » Je pense qu’il faut refaire. Je comprendrai si ça te soûle. Dors bien"
+   text: "Hey, Tu es sans doute couchée. Voilà la réponse de J. « Je sais pas trop, j'aime bien le côté où il y a du végétal, peut-être en mettre au premier plan par exemple ou ou voit un appartement cosi avec un côté chill et par la fenêtre la montagne et la nature 😇 » Je pense qu’il faut refaire. Je comprendrai si ça te soûle. Dors bien"
   },
   ],
 
@@ -9539,7 +9495,7 @@ var blocks = [
   [
   {
    me: true,
-   text: "Hello D, j’annule pour demain désolée. J’ai besoin de temps. Bonne soirée"
+   text: "Hello D., j’annule pour demain désolée. J’ai besoin de temps. Bonne soirée"
   },
   {
    me: false,
@@ -9553,7 +9509,7 @@ var blocks = [
   [
   {
    me: false,
-   text: "Salut K ! J’espère que tu vas bien. Nous avons terminé le texte avec N. On a pensé à une nouvelle mise en page pour celui-ci. Je bosserai ce soir sur ce que je peux faire (mises à jour des visuelle etc) mais si je pouvais avoir ton aide (normalement) pour une dernière fois demain ou vendredi (le matin de préférence) ça serait super ! Le catalogue partirai en impression lundi si tout va bien. Tiens moi au courant Bisous D"
+   text: "Salut K. ! J’espère que tu vas bien. Nous avons terminé le texte avec N. On a pensé à une nouvelle mise en page pour celui-ci. Je bosserai ce soir sur ce que je peux faire (mises à jour des visuelle etc) mais si je pouvais avoir ton aide (normalement) pour une dernière fois demain ou vendredi (le matin de préférence) ça serait super ! Le catalogue partirai en impression lundi si tout va bien. Tiens moi au courant Bisous D."
 },
   {
    me: true,
