@@ -1,0 +1,146 @@
+html {
+  font-family: 'Cormorant Infant', serif;
+  font-size: 14pt;
+  box-sizing: border-box;
+  background: #EDF2FA;
+  margin: 0px;
+}
+
+body {
+  margin: 0px;
+}
+
+::-webkit-scrollbar {
+    width: 20px;
+}
+
+::-webkit-scrollbar-track {
+  background: url(./res/img/scroll_bar_track.png);
+  background-repeat: repeat-y;
+
+}
+
+::-webkit-scrollbar-thumb {
+  background: white;
+  border: 1px solid black;
+}
+
+
+@media (min-width: 1100px) {
+  .container {
+     width: 1100px; 
+     margin-left: auto;
+     margin-right: auto;
+  }
+}
+
+.menu {
+  position: relative;
+  width: 100%;
+}
+
+.home-btn {
+  position: absolute;
+  top: 40px;
+  left: 40px;
+
+  border-radius: 50%;
+  background: #0D52FF;
+  width: 32px;
+  height: 32px;
+  cursor: pointer;
+}
+
+.home-btn:hover {
+  top: 39px;
+  left: 39px;
+  border: 1px solid #00FFFF;      
+}
+
+.participate-btn, .about-btn {
+  box-sizing: border-box;
+  position: absolute;
+  display: block;
+  width: 110px;
+  font-family: helvetica;
+  font-size: 18px;
+  background: #F7FCFF;
+  padding: 4px 16px;
+  border-radius: 16px;
+  border: none;
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.participate-btn:hover, .about-btn:hover, 
+.participate-btn .active, .about-btn .active, {
+  background: #F2F5FE;
+}
+
+.participate-btn, .about-btn {
+  top: 40px;
+}
+
+.participate-btn {
+  right: 156px;
+}
+
+.about-btn {
+  right: 40px;
+}
+
+@media (min-width: 768px) {
+  .participate-btn, .about-btn {
+    right: 40px;
+  }
+
+  .participate-btn {
+    top: 40px;
+  }
+
+  .about-btn {
+    top: 90px;
+  }
+}
+
+
+.copyright {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  /* TODO font */
+}
+
+.copyright a,
+.sendSmsContainer a {
+      color: black;
+      text-decoration: none;
+}
+
+#copyright {
+  display: none;
+}
+
+#sendSms {
+  display: block;
+} 
+
+/*.smsList {
+    padding-bottom: 62px
+}*/
+
+@media (min-width: 576px) {
+
+  /*.smsList {
+    padding-bottom: 0px
+  }*/
+  #copyright {
+    display: block;
+  }
+
+
+  #sendSms {
+    display: none;
+  }
+}

@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+   <title>Je suis glas, glace de toi</title>
+
+
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Infant&family=Mukta&display=swap" rel="stylesheet"> 
+  <!--link href="https://fonts.googleapis.com/css2?family=Cormorant+Infant&family=Mukta&display=swap" rel="stylesheet"--> 
+
+
+  <link href="./res/style.css" rel="stylesheet">
+  
+  <style>
+
+  .participate-container {
+      padding-top: 70px;
+      margin-right: 30px;
+      margin-left: 30px;
+      display: flex;
+      min-height: 100vh;
+      justify-content: center;
+      flex-direction:column;
+    }
+
+    @media(min-width: 768px) {
+      .participate-container {
+        width: 480px;
+        margin-right: auto;
+        margin-left: auto;
+        padding-top: 0px;
+      }
+    }
+
+    .majorityOptin {
+      margin: 0px 16px;
+    }
+
+    .phoneNumber {
+      border-radius: 20px;
+      border: none;
+      height: 32px;
+      width: 250px;
+      margin-top: 16px;
+      margin-right: 8px;
+      margin-bottom: 8px;
+      margin-left: 0px;
+      padding-left: 16px;
+      padding-right: 16px;
+      font-size: 18px;
+      text-align: center;
+    }
+
+    .send-btn {
+      border-radius: 20px;
+      background: #0D52FF;
+      border: none;
+      color: white;
+      font-size: 18px;
+      height: 32px;
+      padding-left: 16px;
+      padding-right: 16px;
+    }
+
+    .cgu > a {
+      color: black;
+      text-decoration: none;
+    }
+
+    .cgu > a:hover {
+      text-decoration: underline;
+    }
+
+    .curation-1 {
+      margin-left: 70px;
+      float: left;
+      font-size: 14pt;
+
+    }
+    .curation-2 {
+      margin-top: 40px;
+      margin-left: 70px;
+      float: left;
+    }
+    .curation-3 {
+      display: none;
+    }
+
+    .signature {
+      float: right;
+      margin-right: 90px;
+      margin-top: 40px;
+      font-size: 14pt;
+      font-weight: bold;
+    }
+
+    .signature > a {
+      color: black;
+      text-decoration: none;
+    }
+
+   
+  </style>
+</head>
+<body id="body">
+  <div class="container">
+    <div class="menu">
+      <a href="./"><div class="home-btn"></div></a>
+      <a href="./participate"><button class="participate-btn">Participer</button></a>
+      <a href="./about"><button class="about-btn active">À propos</button></a>
+    </div>
+    <div class="participate-container">
+    <p>Offre de services de Texto pour une rencontre virtuelle, amoureuse et sensuelle, avec des temps dures et cruels,
+<br>et d’autres lumineux.
+<br>Adultes de + de 18 ans.</p>
+
+<p>Recevez les textos de la conversation sur votre téléphone portable
+<br>et participer à en créer une nouvelle avec l’artiste.</p>
+
+<form>
+<p><label for="majorityOptin">Je confirme avoir plus de 18 ans.</label><input type="checkbox" id="majorityOptin" class="majorityOptin" name="majorityOptin"></p>
+  
+
+<p><label for="phoneNumber">Veuillez entrer votre numéro de téléphone :</label><input type="tel" name="phoneNumber" id="phoneNumber" class="phoneNumber">
+<button type="submit" class="send-btn">Envoyer</button></p>
+</form>
+<p class="cgu"><a href="./cgu">Mentions légales</a></p>
+
+    </div>
+    <div class="copyright" id="copyright">Je suis glas, glace de toi - 2020 - <a href="https://www.vaxt.fr"  target="_blank">V</a></div>
+  </div>
+</body>
+</html>

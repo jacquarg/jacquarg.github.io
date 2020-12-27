@@ -1,0 +1,545 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+     <meta charset="utf-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+     <title>Je suis glas, glace de toi</title>
+
+
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Infant&family=Mukta&display=swap" rel="stylesheet"> 
+    <!--link href="https://fonts.googleapis.com/css2?family=Cormorant+Infant&family=Mukta&display=swap" rel="stylesheet"--> 
+
+
+    <link href="./res/style.css" rel="stylesheet">
+    
+    <style>
+      html {
+        cursor: url(./res/img/SMS-STOP-01.svg), url(./res/img/SMS-STOP-01.png), pointer;
+        overflow: hidden;
+      }
+
+      ::-webkit-scrollbar {
+          width: 20px;
+      }
+
+      ::-webkit-scrollbar-track {
+        background: url(./res/img/scroll_bar_track.png);
+        background-repeat: repeat-y;
+
+      }
+ 
+      ::-webkit-scrollbar-thumb {
+        background: white;
+        border: 1px solid black;
+      }
+
+      .smsContainer {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+      }
+
+      @media (min-width: 1100px) {
+        .smsContainer {
+           width: 1100px;
+           left: 50%;
+           margin-left: -550px;
+        }
+      }
+
+
+      /* SMS ***********************************************/
+      .smsList {
+        position: absolute;
+        width: 320px;
+        height: 100%;
+        left: 50%;
+        margin-left: -160px;
+        transform: scaleY(-1);
+      }
+
+      .mySmsLine, .itSmsLine {
+        transform: scaleY(-1);
+        width: 100%;
+      }
+      .mySmsLine {
+        text-align: right;
+      }
+      .itSmsLine {
+        text-align: left;
+      }
+
+
+      .mySms, .itSms {
+        /*min-width: 150px;*/
+        max-width: 220px;
+        font-family: helvetica; /*'Mukta', sans-serif;*/
+        font-size: 14pt;
+        padding: 7px 15px;
+        margin-bottom: 10px;
+        border-radius: 17px;
+        display: inline-block;
+      }
+
+      .emoji {
+        font-size: 36pt;
+        background: rgba(0, 0, 0, 0) !important;
+        padding: 0 15px; !important;
+      }
+
+
+      .mySms {
+        background-color: #0D52FF;
+        color: white;
+      }
+
+      .itSms {
+        background-color: #F7FEFF;
+        color: black;
+      }
+
+      /* Explanations **********************************************/
+
+      .explanationsContainer {
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        
+        background: #EDF2FACC;
+        cursor: auto;
+      }
+
+      .explanations {
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        
+        background: #fafafd;
+      }
+
+      .explanations > .content {
+        height: calc(100% - 80px);
+        margin-left: 0;
+        margin-right: 0;
+        margin-top: 70px;
+        margin-bottom: 10px;
+
+        overflow-y: auto;
+
+        padding: 0 40px;
+
+        font-family: 'Cormorant Infant', serif;
+        font-size: 14pt;
+
+
+        scrollbar-width: thin;
+      }
+
+      @media (min-width: 576px) {
+        .explanations {
+          position: absolute;
+          width: 540px;
+          height: 405px;
+          left: 50%;
+          top: 50%;
+          margin-left: -270px;
+          margin-top: -202px;
+        }
+
+        .explanations > .content {
+          height: 325px;
+          margin-left: 140px;
+          margin-right: 30px;
+        }
+      }
+
+      .explanations > .close {
+        position: absolute;
+        right: 0px;
+        top: 10px;
+        width: 70px;
+        cursor: pointer;
+      }
+      .explanations > .close > img {
+        width: 100%;
+      }
+
+
+      .explanations a {
+            color: black;
+            text-decoration: none;
+      }
+
+      /* other ***********************************************/
+
+      .menu {
+        visibility: hidden;
+      }
+
+      .activeCountDown {
+        visibility: visible;
+      }
+
+      @media(min-width: 768px) {
+        .menu {
+          visibility: visible;
+        }
+      }
+
+      .countDown {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        font-size: 30pt;
+      }
+
+      .sendSmsContainer {
+        position: absolute;
+        bottom: 0px;
+        left: 0px;
+        right: 0px;
+        width: auto;
+        height: 62px;
+        background-color: #e9e9eb;
+      }
+
+      .sendSmsTextField {
+        position: absolute;
+        font-family: helvetica; /*'Mukta', sans-serif;*/
+        font-size: 14pt;
+        padding-top: 7px;
+        padding-bottom: 7px;
+        padding-left: 7px;
+        padding-right: 13px;
+       
+        border-radius: 17px;
+        display: inline-block;
+        background-color: white;
+        color: black;
+
+        height: 28px;
+
+        width: 300px;
+        left: 50%;
+        margin-left: -160px;
+        
+        bottom: 10px;
+        
+        text-align: right;
+        line-height: 28px;
+      }
+
+
+      .copyright {
+        position: absolute;
+        bottom: 30px;
+        right: 30px;
+        /* TODO font */
+      }
+
+      .copyright a,
+      .sendSmsContainer a {
+            color: black;
+            text-decoration: none;
+      }
+
+      #copyright {
+        display: none;
+      }
+
+      #sendSms {
+        display: block;
+      } 
+
+      /*.smsList {
+          padding-bottom: 62px
+      }*/
+
+      @media (min-width: 576px) {
+
+        /*.smsList {
+          padding-bottom: 0px
+        }*/
+        #copyright {
+          display: block;
+        }
+
+
+        #sendSms {
+          display: none;
+        }
+      }
+
+
+
+    </style>
+  </head>
+  <body id="body">
+    <div class="smsContainer" id="smsContainer"> 
+      <div class="menu" id="menu">
+        <a href="./" class="home-btn"></a>
+        <a href="./participate" class="participate-btn">Participer</a>
+        <a href="./about" class="about-btn">À propos</a>
+      </div>
+      <div class="smsList" id="smsList"></div>
+      <div class="sendSmsContainer" id="sendSms">
+        <div class="sendSmsTextField">Je suis glas, glace de toi - 2020 - <a href="https://www.vaxt.fr"  target="_blank">V</a></div>
+      </div>
+      <div class="copyright" id="copyright">Je suis glas, glace de toi - 2020 - <a href="https://www.vaxt.fr"  target="_blank">V</a></div>
+    </div>
+    <div class="countDown" id="countDown"></div>
+    
+
+
+
+    <div class="explanationsContainer" id="explanations">
+      <div class="explanations" >
+        <div class="close" id="closeExplanations"><img src='./res/img/SMS-CROSS-02.png' /></div>
+        <div class="content">
+          <p>Je suis glas, glace de toi</p>
+
+<p>Une boucle infini
+<br>test de texto
+<br>qui défile sur l’écran.
+<br><b>Vous avez la possibilité d’arrêter
+<br>le temps pendant 5 secondes
+<br>en cliquant</b> et de dénuder l’échange
+<br>d’amour, de désir, de banalités,
+<br>ou qui sait, de découvrir
+<br>votre propre regard.</p>
+        </div>
+      </div>
+    </div>
+    <script src="./sms-text.js"></script>
+    <script>
+      var countDownPeriod = 1000
+      var fixedDelay = 20
+      var variableDelay = 40
+
+      var sounds = Array(50).fill(1).map(() => new Audio("./res/audio/1111.ogg"))
+      var soundIdx = 0
+    
+      
+      
+
+      function playSound() {
+        soundIdx = (soundIdx + 1) % sounds.length
+        //sounds[soundIdx].play()
+      }
+
+      // UI fonctions
+
+      var displayedElements = []
+      function appendSms(message) {
+        var rand = getRandomInt(10)
+      
+        var isJustEmoji = message.text.match(/\s/g) == null && isEmoji(message.text)
+
+        var prefix = (message.me) ? 'my' : 'it'
+
+        // var html = '<div class="' + prefix + 'SmsLine"><div class="' + prefix + 'Sms">' + message.text + '</div></div>'
+        // document.getElementById('smsList').insertAdjacentHTML('afterbegin', html)
+        
+        var html = '<div class="' + prefix + 'Sms'
+        if (isJustEmoji) {
+          html += ' emoji '
+        }
+
+        html += '">' + message.text + '</div>'
+
+        var element = document.createElement('div')
+        element.className = prefix + 'SmsLine'
+        element.innerHTML = html
+        var smsList = document.getElementById('smsList')
+        smsList.insertBefore(element, smsList.firstChild)
+
+        playSound()
+
+        displayedElements.push(element)
+        for (var elem of displayedElements) {
+          var bottom = elem.getBoundingClientRect().bottom
+
+          if (bottom < 0) {
+            elem.remove()
+            displayedElements.shift()
+          }
+
+        }
+      }
+
+      function displayCountDown(count) {
+        var countStr = ""
+        var className = document.getElementById('menu').className.replaceAll("activeCountDown", "").trim()
+        if (count > 0) {
+          countStr = "" + count
+
+          className += " activeCountDown"
+        }
+        
+        document.getElementById('countDown').innerHTML = countStr
+        document.getElementById('menu').className = className
+      }
+
+      // Command
+
+      var remainingBlocks = []
+      var currentBlock = null
+      var currentMessageIndex = -1
+      function getNextSMS() {
+        if (currentBlock == null || currentMessageIndex >= currentBlock.length - 1) {
+          if (remainingBlocks.length == 0) {
+            remainingBlocks = blocks.slice()
+          }
+          var blockIndex = getRandomInt(remainingBlocks.length - 1)
+          currentBlock = remainingBlocks.splice(blockIndex, 1)[0]
+          currentMessageIndex = -1
+        }
+
+        currentMessageIndex++
+        return currentBlock[currentMessageIndex]
+      }
+
+      
+      var floodId = null
+      
+      function startFlood() {
+        appendSms(getNextSMS())
+        floodId = setTimeout(startFlood, fixedDelay + getRandomInt(variableDelay))
+      }
+
+      function stopFlood() {
+        if (countDownId == null) {
+          clearTimeout(floodId)
+          count = 5
+
+          doCountDown()
+        }
+      }
+
+      var count = 0
+      var countDownId = null
+      
+      function doCountDown() {
+        displayCountDown(count)
+
+        count--
+        if (count < 0) {
+          startFlood()
+          countDownId = null
+        } else {
+          countDownId = setTimeout(doCountDown, countDownPeriod)
+        }
+      }
+
+      
+      // init
+      function initialize() {
+        document.getElementById('smsContainer').addEventListener("click", stopFlood)
+              
+        document.getElementById("explanations").addEventListener("click",
+          ev => {
+            // prevent closing explanation on click on the links.
+            try {
+                if (ev.target.nodeName.toLowerCase() == 'a') {
+                    return
+                }
+            } catch(e) {}
+
+            document.getElementById("explanations").style.display = "none"    
+          })
+        startFlood()  
+      }
+
+
+      // Tools
+      function getRandomInt(max) {
+        return Math.floor(Math.random() * Math.floor(max))
+      }
+
+      function isEmoji(str) {
+          var ranges = [
+              '(?:[\u2700-\u27bf]|(?:\ud83c[\udde6-\uddff]){2}|[\ud800-\udbff][\udc00-\udfff]|[\u0023-\u0039]\ufe0f?\u20e3|\u3299|\u3297|\u303d|\u3030|\u24c2|\ud83c[\udd70-\udd71]|\ud83c[\udd7e-\udd7f]|\ud83c\udd8e|\ud83c[\udd91-\udd9a]|\ud83c[\udde6-\uddff]|[\ud83c[\ude01-\ude02]|\ud83c\ude1a|\ud83c\ude2f|[\ud83c[\ude32-\ude3a]|[\ud83c[\ude50-\ude51]|\u203c|\u2049|[\u25aa-\u25ab]|\u25b6|\u25c0|[\u25fb-\u25fe]|\u00a9|\u00ae|\u2122|\u2139|\ud83c\udc04|[\u2600-\u26FF]|\u2b05|\u2b06|\u2b07|\u2b1b|\u2b1c|\u2b50|\u2b55|\u231a|\u231b|\u2328|\u23cf|[\u23e9-\u23f3]|[\u23f8-\u23fa]|\ud83c\udccf|\u2934|\u2935|[\u2190-\u21ff])' // U+1F680 to U+1F6FF
+          ];
+          if (str.match(ranges.join('|'))) {
+              return true;
+          } else {
+              return false;
+          }
+      }
+
+      // Data
+      /*var blocks = [
+        [
+        {
+          me: true,
+          text: "blabla1"
+        },
+        {
+          me: false,
+          text: "blabla1"
+        },
+        {
+          me: true,
+          text: "blabla2"
+        },
+        {
+          me: false,
+          text: "blabla2"
+        },
+        {
+          me: true,
+          text: "blabla3"
+        },
+        {
+          me: false,
+          text: "blabla3"
+        },
+        ],
+        [
+        {
+          me: true,
+          text: "bleble1"
+        },
+        {
+          me: false,
+          text: "bleble1"
+        },
+        ],
+        [
+        {
+          me: false,
+          text: "blibli1"
+        },
+        {
+          me: true,
+          text: "blibli1"
+        },
+        ],
+        [
+        {
+          me: true,
+          text: "bloblo1"
+        },
+        {
+          me: false,
+          text: "bloblo1"
+        },
+        ],
+        [
+        {
+          me: true,
+          text: "blublu1"
+        },
+        ],
+      ]*/
+
+      initialize()
+    </script>
+  </body>
+  </html>
